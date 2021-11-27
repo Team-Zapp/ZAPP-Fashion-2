@@ -106,10 +106,16 @@ body {
   height: 50px !important;
   text-decoration: none !important;
 }
-.feedbackform {
+#feedbackform {
   text-decoration: none !important;
 }
+.User1 {
+  padding-top: 4px;
+  font-size: 30px;
+  cursor: pointer;
+}
 .User {
+  color: black;
   font-size: 20px;
   cursor: pointer;
   padding: auto;
@@ -276,7 +282,7 @@ body {
 /*Footer */
 .footer {
   background-color: black;
-  height: 60vh;
+  height: 70vh;
   margin-top: 10vh;
   color: white;
 }
@@ -327,10 +333,40 @@ body {
   margin-right: 90px;
 }
 .underline {
-  margin-top: 20px;
-  width: 85vw;
-  margin-left: 8vw;
+  margin-top: 80px;
+  width: 90vw;
+  margin-left: 5vw;
   background-color: white !important;
+}
+.pic1 {
+  display: flex;
+}
+.pic2 {
+  margin-top: 20px;
+}
+.admin {
+  width: 9vh;
+  border-radius: 50%;
+}
+.admin2 {
+  width: 8vh;
+  border-radius: 50%;
+}
+.admin1 {
+  margin-right: 50px;
+  margin-left: 50px;
+}
+.adminname1 {
+  margin-top: 10px;
+}
+.zaw {
+  margin-right: 150px;
+}
+.phu {
+  margin-right: 140px;
+}
+.gmail {
+  text-decoration: none !important;
 }
 .copyright {
   margin-top: 40px;

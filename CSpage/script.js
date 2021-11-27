@@ -214,7 +214,7 @@ $(document).ready(function () {
             $(`${inner}`).append(
               `${start}
             <div class="col-md-4 mb-3">
-              <div class="card slcard MSHlenght">
+              <div class="card slcard MSHlength">
                 <img class="img-fluid" src="../Admin/Stockmanagement/pdphotos/${iterator.photoname}" />
                 <div class="card-body justify-content-center
                     d-flex
@@ -256,7 +256,7 @@ $(document).ready(function () {
             $(`${inner}`).append(
               `${start}
             <div class="col-md-4 mb-3">
-              <div class="card slcard WSlenght">
+              <div class="card slcard WSlength">
                 <img class="img-fluid" src="../Admin/Stockmanagement/pdphotos/${iterator.photoname}" />
                 <div class="card-body justify-content-center
                     d-flex
@@ -294,7 +294,7 @@ $(document).ready(function () {
             $(`${inner}`).append(
               `${start}
             <div class="col-md-4 mb-3">
-              <div class="card slcard WSlenght">
+              <div class="card slcard WPlength">
                 <img class="img-fluid" src="../Admin/Stockmanagement/pdphotos/${iterator.photoname}" />
                 <div class="card-body justify-content-center
                     d-flex
@@ -411,7 +411,7 @@ $(document).ready(function () {
             $(`${inner}`).append(
               `${start}
             <div class="col-md-4 mb-3">
-              <div class="card slcard KSlength">
+              <div class="card slcard KPlength">
                 <img class="img-fluid" src="../Admin/Stockmanagement/pdphotos/${iterator.photoname}" />
                 <div class="card-body justify-content-center
                     d-flex
@@ -449,7 +449,7 @@ $(document).ready(function () {
             $(`${inner}`).append(
               `${start}
             <div class="col-md-4 mb-3">
-              <div class="card slcard WSHlength">
+              <div class="card slcard KSHlength">
                 <img class="img-fluid" src="../Admin/Stockmanagement/pdphotos/${iterator.photoname}" />
                 <div class="card-body justify-content-center
                     d-flex
@@ -469,50 +469,50 @@ $(document).ready(function () {
           }
         }
       }
-      var emptyMshoecard = document.getElementsByClassName("MSHlength")
-      var emptyMshirtcard = document.getElementsByClassName("MSlength")
-      var emptyMpantcard = document.getElementsByClassName("MPlength")
-      var emptyWshirtcard = document.getElementsByClassName("WSlength")
-      var emptyWpantcard = document.getElementsByClassName("WPlength")
-      var emptyWshoecard = document.getElementsByClassName("WSHlength")
-      var emptyKshirtcard = document.getElementsByClassName("KSlength")
-      var emptyKpantcard = document.getElementsByClassName("KPlength")
-      var emptyKshoecard = document.getElementsByClassName("KSHlength")
-      if(emptyMshirtcard.length == 0){
-        $(".mshirt").css("display","none");
-        $(".mshirtbtn").css("display","none");
+      var emptyMshoecard = document.getElementsByClassName("MSHlength");
+      var emptyMshirtcard = document.getElementsByClassName("MSlength");
+      var emptyMpantcard = document.getElementsByClassName("MPlength");
+      var emptyWshirtcard = document.getElementsByClassName("WSlength");
+      var emptyWpantcard = document.getElementsByClassName("WPlength");
+      var emptyWshoecard = document.getElementsByClassName("WSHlength");
+      var emptyKshirtcard = document.getElementsByClassName("KSlength");
+      var emptyKpantcard = document.getElementsByClassName("KPlength");
+      var emptyKshoecard = document.getElementsByClassName("KSHlength");
+      if (emptyMshirtcard.length == 0) {
+        $(".mshirt").css("display", "none");
+        $(".mshirtbtn").css("display", "none");
       }
-      if(emptyMshoecard.length == 0){
-        $(".mshoe").css("display","none");
-        $(".mshoebtn").css("display","none");
+      if (emptyMshoecard.length == 0) {
+        $(".mshoe").css("display", "none");
+        $(".mshoebtn").css("display", "none");
       }
-      if(emptyMpantcard.length == 0){
-        $(".mpant").css("display","none");
-        $(".mspantbtn").css("display","none");
+      if (emptyMpantcard.length == 0) {
+        $(".mpant").css("display", "none");
+        $(".mspantbtn").css("display", "none");
       }
-      if(emptyWshirtcard.length == 0){
-        $(".wshirt").css("display","none");
-        $(".wshirtbtn").css("display","none");
+      if (emptyWshirtcard.length == 0) {
+        $(".wshirt").css("display", "none");
+        $(".wshirtbtn").css("display", "none");
       }
-      if(emptyWpantcard.length == 0){
-        $(".wpant").css("display","none");
-        $(".wpantbtn").css("display","none");
+      if (emptyWpantcard.length == 0) {
+        $(".wpant").css("display", "none");
+        $(".wpantbtn").css("display", "none");
       }
-      if(emptyWshoecard.length == 0){
-        $(".wshoe").css("display","none");
-        $(".wshoebtn").css("display","none");
+      if (emptyWshoecard.length == 0) {
+        $(".wshoe").css("display", "none");
+        $(".wshoebtn").css("display", "none");
       }
-      if(emptyKshirtcard.length == 0){
-        $(".kshirt").css("display","none");
-        $(".kshirtbtn").css("display","none");
+      if (emptyKshirtcard.length == 0) {
+        $(".kshirt").css("display", "none");
+        $(".kshirtbtn").css("display", "none");
       }
-      if(emptyKpantcard.length == 0){
-        $(".kpant").css("display","none");
-        $(".kpantbtn").css("display","none");
+      if (emptyKpantcard.length == 0) {
+        $(".kpant").css("display", "none");
+        $(".kpantbtn").css("display", "none");
       }
-      if(emptyKshoecard.length == 0){
-        $(".kshoe").css("display","none");
-        $(".kshoebtn").css("display","none");
+      if (emptyKshoecard.length == 0) {
+        $(".kshoe").css("display", "none");
+        $(".kshoebtn").css("display", "none");
       }
       /* Start Shipping Cart (Phu) */
       removeItem();
@@ -586,11 +586,7 @@ $(document).ready(function () {
             document.getElementById("cart-alert").style.opacity = "1";
             fadeOutEffect();
             showTotals();
-<<<<<<< HEAD
-            totalcaluate();
-=======
             calctotalprice();
->>>>>>> 7810592e6c617c8874e879d7fbb6cb730d9a1425
 
             //Show Shopping Cart Dialog
             // $("#cart-button").trigger("click");
@@ -607,21 +603,6 @@ $(document).ready(function () {
           }
         });
       });
-<<<<<<< HEAD
-      //Calculate
-      var totalprice = [];
-      var calitemprice = document.getElementsByClassName("cartitemprice");
-      var calitemqty = document.getElementsByClassName("itemqtypp");
-      var grandtotalprice = 0;
-      function totalcaluate() {
-        for (let index = 0; index < calitemprice.length; index++) {
-          totalprice[index] = Number(calitemprice[index].innerHTML) * Number(calitemqty[index].innerHTML);
-        }
-        for (let index = 0; index < totalprice.length; index++) {
-         Number( grandtotalprice) += Number(totalprice[index]);
-        }
-        $("#grandtotal").text(grandtotalprice);
-=======
 
       //Total Price Calc
 
@@ -639,7 +620,6 @@ $(document).ready(function () {
           grandtotal += Number(totalprice[index]);
         }
         $("#grandtotal").text(grandtotal + "$");
->>>>>>> 7810592e6c617c8874e879d7fbb6cb730d9a1425
       }
       // Check If Item Is Already In Cart
 

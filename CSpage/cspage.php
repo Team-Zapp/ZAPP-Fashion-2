@@ -40,9 +40,9 @@
         <span class="name kidbtn">KID</span>
         
  
-        <button class="btn btn-outline-dark user" type="submit" id="feedback">
+        <button class="btn btn-outline-warning user" type="submit" id="feedback">
           <a href="" id="feedbackform">
-            <p class="User">FeedBack Us</p>
+            <p class="User">FeedBack</p>
           </a>
         </button>
       </div>
@@ -85,7 +85,7 @@
             </ul>
     
             <button class="btn btn-outline-warning profile" type="submit" >
-        <ion-icon name="person-outline" class="User"></ion-icon>
+        <ion-icon name="person-outline" class="User1"></ion-icon>
         </button>
         <div class="userprofile">
 
@@ -725,11 +725,19 @@
     </div>
     <div class="bigroom">
     <div class="room">
-      <h3 class="footerheadtext">About ZAPP</h3>
-      <p class="footerinnertext">Get To Know US</p>
-      <p class="footerinnertext">PROMS</p>
-      <p class="footerinnertext">Become A RETAILER</p>
-      <p class="footerinnertext">EVENTS</p>
+    <h3 class="footerheadtext">Developed By</h3>
+      <div class="pic1">
+        <span class="admin1"><img src="zaw.png" alt="" class="admin"></span><span class="admin1"><img src="zayar1.jpg" alt="" class="admin2"></span>
+      </div>
+      <div class="adminname1">
+        <span class="zaw">Zaw</span><span class="zay">Zay</span>
+      </div>
+      <div class="pic2">
+      <span class="admin1"><img src="phuu.png" alt="" class="admin"></span><span class="admin1"><img src="Zarni.jpg" alt="" class="admin"></span>
+      </div>
+      <div class="adminname1">
+        <span class="phu">Phuu</span><span class="zar">Zarni</span>
+      </div>
     </div>
     <div class="room">
     <h3 class="footerheadtext">Contact Us</h3>
@@ -746,7 +754,7 @@
       <span class="icons"><ion-icon name="logo-twitter" class="socialicon"></ion-icon></span>
       <span class="icons"><ion-icon name="logo-google" class="socialicon"></ion-icon></span>
       </div>
-      <div class="mail"><ion-icon name="mail-outline" class="picon"></ion-icon><span class="footerinnertext1">ZAPP-Fashion@gmail.com</span></div>
+      <div class="mail"><ion-icon name="mail-outline" class="picon"></ion-icon><span class="footerinnertext1"><a href="mailto: ZAPP-Fashion@example.com" class="gmail">ZAPP-Fashion@gmail.com</a> </span></div>
       <div class="phone"><ion-icon name="call-outline" class="picon"></ion-icon><span class="footerinnertext1">+9545623423</span></div>
     </div>
     </div>
@@ -796,15 +804,6 @@
             <strong id="cart-total" class="badge badge-pill badge-danger">0</strong>
           </h5>
         </div>
-<<<<<<< HEAD
-        <div class="cart-total-container
-            d-flex
-            justify-content-around
-            text-capitalize
-            mt-1
-            totalprice
-        ">GrandTotal : <span id="grandtotal"></span></div>
-=======
         <div class="
             cart-total-container
             d-flex
@@ -812,7 +811,6 @@
             text-capitalize
             grandtotaldiv
           ">Grand Total : <span id="grandtotal" class="grandtotal">0$</span></div>
->>>>>>> 7810592e6c617c8874e879d7fbb6cb730d9a1425
         <!--end cart total -->
         <div class="flex-contianer">
           <div class="d-flex align-items-start flex-column">
