@@ -138,7 +138,7 @@ $(document).ready(function () {
             $(`${inner}`).append(
               `${start}
             <div class="col-md-4 mb-3">
-              <div class="card slcard">
+              <div class="card slcard MSlength">
                 <img class="img-fluid" src="../Admin/Stockmanagement/pdphotos/${iterator.photoname}" />
                 <div class="card-body justify-content-center
                     d-flex
@@ -146,6 +146,7 @@ $(document).ready(function () {
                   <h4 class="card-title Mshirtprice" id="${idMS}">${iterator.saleprice}$</h4>
                   <p class="card-text Mshirtname itemtag ">${iterator.name}</p>
                   <p style="display: none;" id="itemid${idMS}">${iterator.id}</p>
+                  <p class="remainingstock">Remaining Stock :${iterator.stock}</p>
                   <button href="" class="btn btn-primary btnaddcart">Add to Cart</button>
                 </div>
               </div>
@@ -175,7 +176,7 @@ $(document).ready(function () {
             $(`${inner}`).append(
               `${start}
             <div class="col-md-4 mb-3">
-              <div class="card slcard">
+              <div class="card slcard MPlength">
                 <img class="img-fluid" src="../Admin/Stockmanagement/pdphotos/${iterator.photoname}" />
                 <div class="card-body justify-content-center
                     d-flex
@@ -183,6 +184,7 @@ $(document).ready(function () {
                   <h4 class="card-title Mpantprice" id="${idMP}">${iterator.saleprice}$</h4>
                   <p class="card-text Mpantname itemtag ">${iterator.name}</p>
                   <p style="display: none;" id="itemid${idMP}">${iterator.id}</p>
+                  <p class="remainingstock">Remaining Stock :${iterator.stock}</p>
                   <button href="" class="btn btn-primary btnaddcart">Add to Cart</button>
                 </div>
               </div>
@@ -212,7 +214,7 @@ $(document).ready(function () {
             $(`${inner}`).append(
               `${start}
             <div class="col-md-4 mb-3">
-              <div class="card slcard">
+              <div class="card slcard MSHlenght">
                 <img class="img-fluid" src="../Admin/Stockmanagement/pdphotos/${iterator.photoname}" />
                 <div class="card-body justify-content-center
                     d-flex
@@ -220,6 +222,7 @@ $(document).ready(function () {
                   <h4 class="card-title Mshoeprice" id="${idMSH}">${iterator.saleprice}$</h4>
                   <p class="card-text Mshoename itemtag ">${iterator.name}</p>
                   <p style="display: none;" id="itemid${idMSH}">${iterator.id}</p>
+                  <p class="remainingstock">Remaining Stock :${iterator.stock}</p>
                   <button href="" class="btn btn-primary btnaddcart">Add to Cart</button>
                 </div>
               </div>
@@ -253,7 +256,7 @@ $(document).ready(function () {
             $(`${inner}`).append(
               `${start}
             <div class="col-md-4 mb-3">
-              <div class="card slcard">
+              <div class="card slcard WSlenght">
                 <img class="img-fluid" src="../Admin/Stockmanagement/pdphotos/${iterator.photoname}" />
                 <div class="card-body justify-content-center
                     d-flex
@@ -261,6 +264,7 @@ $(document).ready(function () {
                   <h4 class="card-title Wshirtprice" id="${idWS}">${iterator.saleprice}$</h4>
                   <p class="card-text Wshirtname itemtag ">${iterator.name}</p>
                   <p style="display: none;" id="itemid${idWS}">${iterator.id}</p>
+                  <p class="remainingstock">Remaining Stock :${iterator.stock}</p>
                   <button href="" class="btn btn-primary btnaddcart">Add to Cart</button>
                 </div>
               </div>
@@ -290,7 +294,7 @@ $(document).ready(function () {
             $(`${inner}`).append(
               `${start}
             <div class="col-md-4 mb-3">
-              <div class="card slcard">
+              <div class="card slcard WSlenght">
                 <img class="img-fluid" src="../Admin/Stockmanagement/pdphotos/${iterator.photoname}" />
                 <div class="card-body justify-content-center
                     d-flex
@@ -298,6 +302,7 @@ $(document).ready(function () {
                   <h4 class="card-title Wpantprice" id="${idWP}">${iterator.saleprice}$</h4>
                   <p class="card-text Wpantname itemtag ">${iterator.name}</p>
                   <p style="display: none;" id="itemid${idWP}">${iterator.id}</p>
+                  <p class="remainingstock">Remaining Stock :${iterator.stock}</p>
                   <button href="" class="btn btn-primary btnaddcart">Add to Cart</button>
                 </div>
               </div>
@@ -327,7 +332,7 @@ $(document).ready(function () {
             $(`${inner}`).append(
               `${start}
             <div class="col-md-4 mb-3">
-              <div class="card slcard">
+              <div class="card slcard WSHlength">
                 <img class="img-fluid" src="../Admin/Stockmanagement/pdphotos/${iterator.photoname}" />
                 <div class="card-body justify-content-center
                     d-flex
@@ -335,6 +340,7 @@ $(document).ready(function () {
                   <h4 class="card-title Wshoeprice" id="${idWSH}">${iterator.saleprice}$</h4>
                   <p class="card-text Wshoename itemtag ">${iterator.name}</p>
                   <p style="display: none;" id="itemid${idWSH}">${iterator.id}</p>
+                  <p class="remainingstock">Remaining Stock :${iterator.stock}</p>
                   <button href="" class="btn btn-primary btnaddcart">Add to Cart</button>
                 </div>
               </div>
@@ -367,7 +373,7 @@ $(document).ready(function () {
             $(`${inner}`).append(
               `${start}
             <div class="col-md-4 mb-3">
-              <div class="card slcard">
+              <div class="card slcard KSlength">
                 <img class="img-fluid" src="../Admin/Stockmanagement/pdphotos/${iterator.photoname}" />
                 <div class="card-body justify-content-center
                     d-flex
@@ -375,6 +381,7 @@ $(document).ready(function () {
                   <h4 class="card-title Kidshirtprice" id="${idKS}">${iterator.saleprice}$</h4>
                   <p class="card-text Kidshirtname itemtag ">${iterator.name}</p>
                   <p style="display: none;" id="itemid${idKS}">${iterator.id}</p>
+                  <p class="remainingstock">Remaining Stock :${iterator.stock}</p>
                   <button href="" class="btn btn-primary btnaddcart">Add to Cart</button>
                 </div>
               </div>
@@ -404,7 +411,7 @@ $(document).ready(function () {
             $(`${inner}`).append(
               `${start}
             <div class="col-md-4 mb-3">
-              <div class="card slcard">
+              <div class="card slcard KSlength">
                 <img class="img-fluid" src="../Admin/Stockmanagement/pdphotos/${iterator.photoname}" />
                 <div class="card-body justify-content-center
                     d-flex
@@ -412,6 +419,7 @@ $(document).ready(function () {
                   <h4 class="card-title Kidpantprice" id="${idKP}">${iterator.saleprice}$</h4>
                   <p class="card-text Kidpantname itemtag ">${iterator.name}</p>
                   <p style="display: none;" id="itemid${idKP}">${iterator.id}</p>
+                  <p class="remainingstock">Remaining Stock :${iterator.stock}</p>
                   <button href="" class="btn btn-primary btnaddcart">Add to Cart</button>
                 </div>
               </div>
@@ -441,7 +449,7 @@ $(document).ready(function () {
             $(`${inner}`).append(
               `${start}
             <div class="col-md-4 mb-3">
-              <div class="card slcard">
+              <div class="card slcard WSHlength">
                 <img class="img-fluid" src="../Admin/Stockmanagement/pdphotos/${iterator.photoname}" />
                 <div class="card-body justify-content-center
                     d-flex
@@ -449,7 +457,7 @@ $(document).ready(function () {
                   <h4 class="card-title Kidshoeprice" id="${idKSH}">${iterator.saleprice}$</h4>
                   <p class="card-text Kidshoename itemtag " >${iterator.name}</p>
                   <p style="display: none;" id="itemid${idKSH}">${iterator.id}</p>
-                  <p>Remaining Stock : ${iterator.stock}</p>
+                  <p class="remainingstock">Remaining Stock :${iterator.stock}</p>
                   <button href="" class="btn btn-primary btnaddcart">Add to Cart</button>
                 </div>
               </div>
@@ -460,6 +468,51 @@ $(document).ready(function () {
             idKSH++;
           }
         }
+      }
+      var emptyMshoecard = document.getElementsByClassName("MSHlength")
+      var emptyMshirtcard = document.getElementsByClassName("MSlength")
+      var emptyMpantcard = document.getElementsByClassName("MPlength")
+      var emptyWshirtcard = document.getElementsByClassName("WSlength")
+      var emptyWpantcard = document.getElementsByClassName("WPlength")
+      var emptyWshoecard = document.getElementsByClassName("WSHlength")
+      var emptyKshirtcard = document.getElementsByClassName("KSlength")
+      var emptyKpantcard = document.getElementsByClassName("KPlength")
+      var emptyKshoecard = document.getElementsByClassName("KSHlength")
+      if(emptyMshirtcard.length == 0){
+        $(".mshirt").css("display","none");
+        $(".mshirtbtn").css("display","none");
+      }
+      if(emptyMshoecard.length == 0){
+        $(".mshoe").css("display","none");
+        $(".mshoebtn").css("display","none");
+      }
+      if(emptyMpantcard.length == 0){
+        $(".mpant").css("display","none");
+        $(".mspantbtn").css("display","none");
+      }
+      if(emptyWshirtcard.length == 0){
+        $(".wshirt").css("display","none");
+        $(".wshirtbtn").css("display","none");
+      }
+      if(emptyWpantcard.length == 0){
+        $(".wpant").css("display","none");
+        $(".wpantbtn").css("display","none");
+      }
+      if(emptyWshoecard.length == 0){
+        $(".wshoe").css("display","none");
+        $(".wshoebtn").css("display","none");
+      }
+      if(emptyKshirtcard.length == 0){
+        $(".kshirt").css("display","none");
+        $(".kshirtbtn").css("display","none");
+      }
+      if(emptyKpantcard.length == 0){
+        $(".kpant").css("display","none");
+        $(".kpantbtn").css("display","none");
+      }
+      if(emptyKshoecard.length == 0){
+        $(".kshoe").css("display","none");
+        $(".kshoebtn").css("display","none");
       }
       /* Start Shipping Cart (Phu) */
       removeItem();
@@ -533,6 +586,7 @@ $(document).ready(function () {
             document.getElementById("cart-alert").style.opacity = "1";
             fadeOutEffect();
             showTotals();
+            totalcaluate();
 
             //Show Shopping Cart Dialog
             // $("#cart-button").trigger("click");
@@ -548,7 +602,20 @@ $(document).ready(function () {
           }
         });
       });
-
+      //Calculate
+      var totalprice = [];
+      var calitemprice = document.getElementsByClassName("cartitemprice");
+      var calitemqty = document.getElementsByClassName("itemqtypp");
+      var grandtotalprice = 0;
+      function totalcaluate() {
+        for (let index = 0; index < calitemprice.length; index++) {
+          totalprice[index] = Number(calitemprice[index].innerHTML) * Number(calitemqty[index].innerHTML);
+        }
+        for (let index = 0; index < totalprice.length; index++) {
+         Number( grandtotalprice) += Number(totalprice[index]);
+        }
+        $("#grandtotal").text(grandtotalprice);
+      }
       // Check If Item Is Already In Cart
 
       var newItem = [];
@@ -592,6 +659,7 @@ $(document).ready(function () {
         var elements = document.querySelectorAll(".form-control");
         for (var i = 0; i < elements.length; i++) {
           itemQty += Number(elements[i].value);
+          console.log(itemQty);
         }
         if (itemQty == 0) {
           $("#btnCheckout").attr("disabled", true);
@@ -650,7 +718,6 @@ $(document).ready(function () {
       /*End Shipping Cart (Phu) */
     },
   });
-
   //zayar
   sessionStorage.setItem("UserID", UserID);
 

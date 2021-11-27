@@ -42,7 +42,7 @@
  
         <button class="btn btn-outline-dark user" type="submit" id="feedback">
           <a href="" id="feedbackform">
-            <ion-icon name="pencil-outline" class="User"></ion-icon>
+            <p class="User">FeedBack Us</p>
           </a>
         </button>
       </div>
@@ -308,35 +308,6 @@
     <div class="feature">
       <h2 class="fs-2 fw-bold fst-italic">Feature</h2>
     </div>
-    <div class="topslide">
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="men slider1.jpg" class="d-block w-100 slimg" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="men slider 4.jpg" class="d-block w-100 slimg" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="men slider 3.jpg" class="d-block w-100 slimg" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="men slider 5.jpg" class="d-block w-100 slimg" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="men slider 6.jpg" class="d-block w-100 slimg" alt="...">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-</div>
     <div class="cards1">
       <!-- Card start-->
       <div class="trending">
@@ -376,14 +347,14 @@
     </div>
     <!-- Card End-->
     <!-- Nslidercard 1 start-->
-    <div class="nslidecard">
+    <div class="nslidecard mshirt">
       <section class="pt-5 pb-5">
         <div class="container">
           <div class="row">
-            <div class="col-6" data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+            <div class="col-6 " data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
               <h3 class="mb-3 fs-2 fw-bold fst-italic" id="scrollspyHeading1">Shirts</h3>
             </div>
-            <div class="col-6 text-right d-flex justify-content-end">
+            <div class="col-6 text-right d-flex justify-content-end mshirtbtn">
               <div class="p-2">
                 <a class="btn btn-primary mb-3 mr-1" href="#carouselExampleIndicators2" role="button" data-bs-slide="prev">
                   <i class="fa fa-arrow-left"></i>
@@ -408,14 +379,14 @@
     </div>
     <!-- Parallx Card End-->
     <!-- Nslidecard 2 Start -->
-    <div class="nslidecard">
+    <div class="nslidecard mpant">
       <section class="pt-5 pb-5">
         <div class="container">
           <div class="row">
-            <div class="col-6" data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+            <div class="col-6 " data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
               <h3 class="mb-3 fs-2 fw-bold fst-italic" id="scrollspyHeading2">Pants</h3>
             </div>
-            <div class="col-6 text-right d-flex justify-content-end">
+            <div class="col-6 text-right d-flex justify-content-end mpantbtn">
               <div class="p-2">
                 <a class="btn btn-primary mb-3 mr-1" href="#carouselExampleIndicators4" role="button" data-bs-slide="prev">
                   <i class="fa fa-arrow-left"></i>
@@ -439,14 +410,14 @@
     </div>
     <!-- Parallx Card 2 End -->
     <!-- Parallx Card 3 Start -->
-    <div class="nslidecard">
+    <div class="nslidecard mshoe">
       <section class="pt-5 pb-5">
         <div class="container slcontainer">
           <div class="row">
-            <div class="col-6" data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+            <div class="col-6 " data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
               <h3 class="mb-3 fs-2 fw-bold fst-italic" id="scrollspyHeading3">Shoes</h3>
             </div>
-            <div class="col-6 text-right d-flex justify-content-end">
+            <div class="col-6 text-right d-flex justify-content-end mshoebtn">
               <div class="p-2">
                 <a class="btn btn-primary mb-3 mr-1" href="#carouselExampleIndicators5" role="button" data-bs-slide="prev">
                   <i class="fa fa-arrow-left"></i>
@@ -475,35 +446,6 @@
     <div class="feature">
       <h2 class="fs-2 fw-bold fst-italic">Feature</h2>
     </div>
-    <div class="topslide">
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="men slider1.jpg" class="d-block w-100 slimg" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="men slider 4.jpg" class="d-block w-100 slimg" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="men slider 3.jpg" class="d-block w-100 slimg" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="men slider 5.jpg" class="d-block w-100 slimg" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="men slider 6.jpg" class="d-block w-100 slimg" alt="...">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-</div>
     <div class="cards1">
       <!-- Card start-->
       <div class="trending">
@@ -543,14 +485,14 @@
     </div>
     <!-- Card End-->
     <!-- Wshirt Card start-->
-    <div class="nslidecard">
+    <div class="nslidecard wshirt">
       <section class="pt-5 pb-5">
         <div class="container">
           <div class="row">
-            <div class="col-6" data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+            <div class="col-6 " data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
               <h3 class="mb-3 fs-2 fw-bold fst-italic" id="scrollspyHeading4">Shirts</h3>
             </div>
-            <div class="col-6 text-right d-flex justify-content-end">
+            <div class="col-6 text-right d-flex justify-content-end wshirtbtn">
               <div class="p-2">
                 <a class="btn btn-primary mb-3 mr-1" href="#carouselExampleIndicators6" role="button" data-bs-slide="prev">
                   <i class="fa fa-arrow-left"></i>
@@ -574,14 +516,14 @@
     </div>
     <!-- Wshirt Card End-->
     <!-- Parallx Card 2 Start -->
-    <div class="nslidecard">
+    <div class="nslidecard wpant">
       <section class="pt-5 pb-5">
         <div class="container">
           <div class="row">
-            <div class="col-6" data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+            <div class="col-6 " data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
               <h3 class="mb-3 fs-2 fw-bold fst-italic" id="scrollspyHeading5">Pants</h3>
             </div>
-            <div class="col-6 text-right d-flex justify-content-end">
+            <div class="col-6 text-right d-flex justify-content-end wpantbtn">
               <div class="p-2">
                 <a class="btn btn-primary mb-3 mr-1" href="#carouselExampleIndicators7" role="button" data-bs-slide="prev">
                   <i class="fa fa-arrow-left"></i>
@@ -605,14 +547,14 @@
     </div>
     <!-- Parallx Card 2 End -->
     <!-- Parallx Card 3 Start -->
-    <div class="nslidecard">
+    <div class="nslidecard wshoe">
       <section class="pt-5 pb-5">
         <div class="container">
           <div class="row">
-            <div class="col-6" data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+            <div class="col-6 " data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
               <h3 class="mb-3 fs-2 fw-bold fst-italic" id="scrollspyHeading6">Shoes</h3>
             </div>
-            <div class="col-6 text-right d-flex justify-content-end">
+            <div class="col-6 text-right d-flex justify-content-end wshoebtn">
               <div class="p-2">
                 <a class="btn btn-primary mb-3 mr-1" href="#carouselExampleIndicators8" role="button" data-bs-slide="prev">
                   <i class="fa fa-arrow-left"></i>
@@ -641,35 +583,6 @@
     <div class="feature">
       <h2 class="fs-2 fw-bold fst-italic">Feature</h2>
     </div>
-    <div class="topslide">
-    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="men slider1.jpg" class="d-block w-100 slimg" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="men slider 4.jpg" class="d-block w-100 slimg" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="men slider 3.jpg" class="d-block w-100 slimg" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="men slider 5.jpg" class="d-block w-100 slimg" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="men slider 6.jpg" class="d-block w-100 slimg" alt="...">
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-</div>
     <div class="cards1">
       <!-- Card start-->
       <div class="trending">
@@ -709,14 +622,14 @@
     </div>
     <!-- Card End-->
     <!-- Parallx Card start-->
-    <div class="nslidecard">
+    <div class="nslidecard kshirt">
       <section class="pt-5 pb-5">
         <div class="container">
           <div class="row">
-            <div class="col-6" data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+            <div class="col-6 " data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
               <h3 class="mb-3 fs-2 fw-bold fst-italic" id="scrollspyHeading7">Shirts</h3>
             </div>
-            <div class="col-6 text-right d-flex justify-content-end">
+            <div class="col-6 text-right d-flex justify-content-end kshirtbtn">
               <div class="p-2">
                 <a class="btn btn-primary mb-3 mr-1" href="#carouselExampleIndicators9" role="button" data-bs-slide="prev">
                   <i class="fa fa-arrow-left"></i>
@@ -740,14 +653,14 @@
     </div>
     <!-- Parallx Card End-->
     <!-- Parallx Card 2 Start -->
-    <div class="nslidecard" >
+    <div class="nslidecard kpant" >
       <section class="pt-5 pb-5">
         <div class="container">
           <div class="row">
-            <div class="col-6" data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+            <div class="col-6 " data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
               <h3 class="mb-3 fs-2 fw-bold fst-italic" id="scrollspyHeading8">Pants</h3>
             </div>
-            <div class="col-6 text-right d-flex justify-content-end">
+            <div class="col-6 text-right d-flex justify-content-end kpantbtn">
               <div class="p-2">
                 <a class="btn btn-primary mb-3 mr-1" href="#carouselExampleIndicators11" role="button" data-bs-slide="prev">
                   <i class="fa fa-arrow-left"></i>
@@ -771,21 +684,21 @@
     </div>
     <!-- Parallx Card 2 End -->
     <!-- Parallx Card 3 Start -->
-    <div class="nslidecard">
+    <div class="nslidecard kshoe">
       <section class="pt-5 pb-5">
-        <div class="container">
+        <div class="container ">
           <div class="row">
             <div class="col-6" data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
               <h3 class="mb-3 fs-2 fw-bold fst-italic" id="scrollspyHeading9">Shoes</h3>
             </div>
-            <div class="col-6 text-right d-flex justify-content-end">
+            <div class="col-6 text-right d-flex justify-content-end kshoebtn">
               <div class="p-2">
-                <a class="btn btn-primary mb-3 mr-1" href="#carouselExampleIndicators12" role="button" data-bs-slide="prev">
+                <a class="btn btn-primary mb-3 mr-1 " href="#carouselExampleIndicators12" role="button" data-bs-slide="prev">
                   <i class="fa fa-arrow-left"></i>
                 </a>
               </div>
               <div class="p-2">
-                <a class="btn btn-primary mb-3" href="#carouselExampleIndicators12" role="button" data-bs-slide="next">
+                <a class="btn btn-primary mb-3 " href="#carouselExampleIndicators12" role="button" data-bs-slide="next">
                   <i class="fa fa-arrow-right"></i>
                 </a>
               </div>
@@ -810,15 +723,36 @@
         <div class="mar">Thank You For Coming To Our Shop</div>
       </marquee>
     </div>
-    <div class="contact">
-      <li>Contact Us</li>
-      <ul style="list-style-type: square;">
-        <li>ZappFashion@gmail.com</li>
-        <li>+016577289</li>
-      </ul>
+    <div class="bigroom">
+    <div class="room">
+      <h3 class="footerheadtext">About ZAPP</h3>
+      <p class="footerinnertext">Get To Know US</p>
+      <p class="footerinnertext">PROMS</p>
+      <p class="footerinnertext">Become A RETAILER</p>
+      <p class="footerinnertext">EVENTS</p>
     </div>
-    <p class="copy">
-      Copyrightt <span>&#169;</span>ZappFashion
+    <div class="room">
+    <h3 class="footerheadtext">Contact Us</h3>
+      <p class="footerinnertext">FAQ</p>
+      <p class="footerinnertext">TERMS & CONDITIONS</p>
+      <p class="footerinnertext">PRIVACY POLICY</p>
+      <p class="footerinnertext">TOO LAZY TO ADD</p>
+    </div>
+    <div class="room2">
+    <h3 class="footerheadtext">Connect With Us</h3>
+    <div class="iconrow">
+      <span class="icons"><ion-icon name="logo-facebook" class="socialicon"></ion-icon></span>
+      <span class="icons"><ion-icon name="logo-instagram" class="socialicon"> </ion-icon></span>
+      <span class="icons"><ion-icon name="logo-twitter" class="socialicon"></ion-icon></span>
+      <span class="icons"><ion-icon name="logo-google" class="socialicon"></ion-icon></span>
+      </div>
+      <div class="mail"><ion-icon name="mail-outline" class="picon"></ion-icon><span class="footerinnertext1">ZAPP-Fashion@gmail.com</span></div>
+      <div class="phone"><ion-icon name="call-outline" class="picon"></ion-icon><span class="footerinnertext1">+9545623423</span></div>
+    </div>
+    </div>
+    <hr class="underline">
+    <p class="copyright">
+    Copyright © 2021 ZAPP-Fashion
     </p>
   </div>
   <!-- start of cart -->
@@ -862,12 +796,20 @@
             <strong id="cart-total" class="badge badge-pill badge-danger">0</strong>
           </h5>
         </div>
+        <div class="cart-total-container
+            d-flex
+            justify-content-around
+            text-capitalize
+            mt-1
+            totalprice
+        ">GrandTotal : <span id="grandtotal"></span></div>
         <!--end cart total -->
         <div class="flex-contianer">
           <div class="d-flex align-items-start flex-column">
             <button type="button" id="btnContinue" class="btn btn-outline-secondary">CONTINUE
               SHOPPING</button>
           </div>
+          
           <div class="d-flex align-items-end flex-column">
             <a href="#checkout"><button type="button" id="btnCheckout" class="btn btn-dark" disabled>Your Cart Is Empty</button></a>
           </div>
