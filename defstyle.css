@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: rgb(185, 231, 246);
+  background: linear-gradient(
+    162deg,
+    rgba(185, 231, 246, 1) 0%,
+    rgba(100, 111, 255, 1) 100%,
+    rgba(89, 97, 249, 1) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  background-repeat: no-repeat;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.header {
+  width: 100%;
+  height: 30vh;
+  background-color: white;
+}
+
+.date {
+  position: relative;
+  width: 20vh;
+  height: 5vh;
+  background-color: #c4c4c4;
+  border-radius: 8px;
+}
+.date p {
+  text-align: center;
+  margin-top: 6px;
+  font-weight: 450;
+  color: black;
+}
+
+.topRight {
+  position: relative;
+  top: 4vh;
+  left: 57%;
+  display: flex;
+  flex-direction: row;
+  gap: 3vh;
+}
+.topRight img {
+  position: relative;
+  width: 10vh;
+  height: 10vh;
+  border-radius: 50%;
+  bottom: 2vh;
+}
+.topRight h3 {
+  position: relative;
+  color: black;
+  bottom: 0.5vh;
+}
+.lastsignIn {
+  position: relative;
+  left: 85%;
+  top: 2vh;
+}
+.container-fluid {
+  position: relative;
+  left: 10vh;
+  width: 100%;
+}
+.container-fluid button {
+  width: 35vh;
+}
+.logo {
+  width: 30%;
+  top: 10%;
+  right: 57%;
+}
+
+.logout {
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  height: 5vh;
+  width: 5vw;
+  transition: 0.5s;
+  border-radius: 10px;
+  box-shadow: 3px 3px 5px gray;
+}
+
+.logout:hover {
+  transform: scale(1.2);
+}
+
+a {
+  text-decoration: none;
+}

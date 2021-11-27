@@ -1,0 +1,229 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.goldTier {
+  display: block;
+  margin: auto;
+  margin-top: 100px;
+  width: 60%;
+  height: 60vh;
+  background: rgb(212, 220, 118);
+  background: linear-gradient(
+    162deg,
+    rgba(212, 220, 118, 1) 0%,
+    rgba(160, 150, 177, 1) 100%
+  );
+  border-radius: 13px;
+  overflow-y: scroll;
+}
+.goldTier h4,
+.silverTier h4,
+.bronzeTier h4 {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px 3px black;
+}
+.table {
+  width: 96%;
+  margin: auto;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  text-align: center;
+}
+.silverTier {
+  margin-left: 2vw;
+  width: 47%;
+  height: 60vh;
+  background: rgb(208, 208, 200);
+  background: linear-gradient(
+    167deg,
+    rgba(208, 208, 200, 1) 0%,
+    rgba(89, 88, 90, 1) 100%
+  );
+  border-radius: 13px;
+  overflow-y: scroll;
+}
+.bronzeTier {
+  width: 47%;
+  height: 60vh;
+  background: rgb(192, 148, 83);
+  background: linear-gradient(
+    167deg,
+    rgba(192, 148, 83, 1) 0%,
+    rgba(89, 88, 90, 1) 100%
+  );
+  border-radius: 13px;
+  overflow-y: scroll;
+}
+
+.secondblk {
+  gap: 2vw;
+  margin-top: 10vh;
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  flex-direction: row;
+}
+#no3 {
+  background: linear-gradient(to top left, #7a00b4, #715eea);
+  color: white;
+  box-shadow: 3px 3px 5px rgb(126, 119, 119);
+}
+
+.footer {
+  margin-top: 10vh;
+  width: 100%;
+  height: 8vh;
+  bottom: 0;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: 400;
+  font-style: italic;
+  background-color: white;
+  color: #000000;
+}
+
+@media only screen and (max-width: 720px) {
+  body {
+    background: rgb(185, 231, 246);
+    background: linear-gradient(
+      162deg,
+      rgba(185, 231, 246, 1) 0%,
+      rgba(100, 111, 255, 1) 100%,
+      rgba(89, 97, 249, 1) 100%,
+      rgba(0, 212, 255, 1) 100%
+    );
+    background-repeat: no-repeat;
+    height: 300vh;
+  }
+  .header {
+    width: 100%;
+    height: 70vh;
+    background-color: white;
+  }
+  .container-fluid {
+    position: relative;
+    width: 50%;
+    flex-direction: column;
+    gap: 3vh;
+    left: -18vh;
+  }
+  .container-fluid button {
+    width: 85vh;
+  }
+  .topRight {
+    position: relative;
+    top: 4vh;
+    left: 46%;
+    display: flex;
+    flex-direction: row;
+    gap: 3vh;
+  }
+  .date {
+    position: relative;
+    bottom: 1.5vh;
+    width: 20vh;
+    height: 5vh;
+    background-color: #c4c4c4;
+    border-radius: 8px;
+  }
+  .date p {
+    text-align: center;
+    font-weight: 350;
+    color: black;
+  }
+  .topRight img {
+    position: relative;
+    width: 6vh;
+    height: 6vh;
+    border-radius: 50%;
+    bottom: 2vh;
+  }
+  .topRight h3 {
+    position: relative;
+    color: black;
+    bottom: 1.5vh;
+  }
+  .lastsignIn {
+    position: relative;
+    left: 65%;
+    top: 3vh;
+  }
+  .logo {
+    top: 10%;
+    right: 42%;
+  }
+  .goldTier {
+    position: relative;
+    margin: auto;
+    top: 2%;
+    width: 90%;
+    height: 60vh;
+    background: rgb(212, 220, 118);
+    background: linear-gradient(
+      162deg,
+      rgba(212, 220, 118, 1) 0%,
+      rgba(160, 150, 177, 1) 100%
+    );
+    border-radius: 13px;
+    overflow-y: scroll;
+  }
+  .goldTier h4,
+  .silverTier h4,
+  .bronzeTier h4 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 3px black;
+  }
+  .table {
+    margin: auto;
+    margin-top: 3vh;
+    margin-left: 1vh;
+    margin-bottom: 3vh;
+    text-align: center;
+  }
+  .silverTier {
+    position: relative;
+
+    left: 5%;
+    top: 5.5%;
+    width: 90%;
+    height: 60vh;
+    background: rgb(208, 208, 200);
+    background: linear-gradient(
+      167deg,
+      rgba(208, 208, 200, 1) 0%,
+      rgba(89, 88, 90, 1) 100%
+    );
+    border-radius: 13px;
+    overflow-y: scroll;
+  }
+  .bronzeTier {
+    position: relative;
+
+    left: 5%;
+    top: 9.3%;
+    width: 90%;
+    height: 60vh;
+    background: rgb(192, 148, 83);
+    background: linear-gradient(
+      167deg,
+      rgba(192, 148, 83, 1) 0%,
+      rgba(89, 88, 90, 1) 100%
+    );
+    border-radius: 13px;
+    overflow-y: scroll;
+  }
+
+  .footer {
+    bottom: 0;
+    margin-top: 10vh;
+    width: 100%;
+    height: 5vh;
+    background: #000000;
+  }
+}
