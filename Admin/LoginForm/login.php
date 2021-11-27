@@ -62,7 +62,7 @@
 				<h2 class="form_head">Sign Up</h2>
 				<input type="text" name="name" placeholder="Name" required>
 				<input type="text" name="email" placeholder="Email" required>
-				<input type="text" name="phnumber" placeholder="Phone Number" pattern="[0-9]+" required>
+				<input type="text" name="phnumber" placeholder="Phone Number" pattern="[0-9]+" maxlength="10" required>
 				<input type="text" name="address" placeholder="Address"	>
 				<input type="password" name="password" placeholder="Password" id="newaccpassword" required>
 				<ion-icon name="eye-off-outline" id="icon2"></ion-icon>

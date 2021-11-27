@@ -533,6 +533,7 @@ $(document).ready(function () {
             document.getElementById("cart-alert").style.opacity = "1";
             fadeOutEffect();
             showTotals();
+            calctotalprice();
 
             //Show Shopping Cart Dialog
             // $("#cart-button").trigger("click");
@@ -545,10 +546,28 @@ $(document).ready(function () {
               "visible";
             document.querySelectorAll(".alert-warning")[0].style.opacity = "1";
             fadeOutEffect();
+            calctotalprice();
           }
         });
       });
 
+      //Total Price Calc
+
+      function calctotalprice() {
+        var totalprice = [];
+        var grandtotal = 0;
+        var calcprice = document.getElementsByClassName("cartitemprice");
+        var calcitemqty = document.querySelectorAll(".form-control");
+        for (let index = 0; index < calcprice.length; index++) {
+          totalprice[index] =
+            Number(calcprice[index].innerHTML.replace("$", "")) *
+            Number(calcitemqty[index].value);
+        }
+        for (let index = 0; index < totalprice.length; index++) {
+          grandtotal += Number(totalprice[index]);
+        }
+        $("#grandtotal").text(grandtotal + "$");
+      }
       // Check If Item Is Already In Cart
 
       var newItem = [];
@@ -613,6 +632,7 @@ $(document).ready(function () {
             var cartItemRemove = remove.target.parentElement;
             cartItemRemove.remove();
             showTotals();
+            calctotalprice();
           }
         });
       }
@@ -628,6 +648,7 @@ $(document).ready(function () {
         function (event) {
           if (event.target.classList.contains("form-control")) {
             showTotals();
+            calctotalprice();
           }
         },
         false
