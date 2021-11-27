@@ -796,6 +796,7 @@
             <strong id="cart-total" class="badge badge-pill badge-danger">0</strong>
           </h5>
         </div>
+<<<<<<< HEAD
         <div class="cart-total-container
             d-flex
             justify-content-around
@@ -803,6 +804,15 @@
             mt-1
             totalprice
         ">GrandTotal : <span id="grandtotal"></span></div>
+=======
+        <div class="
+            cart-total-container
+            d-flex
+            justify-content-center
+            text-capitalize
+            grandtotaldiv
+          ">Grand Total : <span id="grandtotal" class="grandtotal">0$</span></div>
+>>>>>>> 7810592e6c617c8874e879d7fbb6cb730d9a1425
         <!--end cart total -->
         <div class="flex-contianer">
           <div class="d-flex align-items-start flex-column">
