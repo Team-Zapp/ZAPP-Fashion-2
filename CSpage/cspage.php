@@ -92,7 +92,7 @@
             <img src="userprofile.png" alt="" class="userpic" id="userpic">
             <p class="usernames" id="profilenames"></p>
             <p class="usernames" id="profileemailaddress"></p>
-            <button class="logout" id="logout"><a href="../Admin/LoginForm/login.php" class="logout1">Logout</a></button>
+            <button class="logout btn-outline-warning" id="logout"><a href="../Admin/LoginForm/login.php" class="logout1">Logout</a></button>
 
         </div>
           <!-- navbar-collapse.// -->

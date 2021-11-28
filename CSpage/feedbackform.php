@@ -9,7 +9,7 @@
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link rel="shortcut icon" href="Logo 2.png" type="image/x-icon" />
-    <link rel="stylesheet" href="forget.css">
+    <link rel="stylesheet" href="feedback.css">
     <script src="jquery.js"></script>
     <script src="script.js" defer></script>
     <title>Forgot password</title>
@@ -20,7 +20,7 @@
         <div class="white-panel">
             <div class="login-show" align="center">
                 <h2 class="form_head" align="center" style="margin-bottom:10vh ;">Leave us a review</h2>
-                <input type="text-box" name="review" style="width: 50%;" style=" height:50vh;" align="center">
+                <input type="text-box" name="review" style="width: 50%;" align="center">
                 <input class="loginbtn" type="submit" name="submit" value="Give Review">
             </div>
     </form>
