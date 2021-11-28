@@ -733,7 +733,7 @@
         <span class="zaw"><a href="https://www.facebook.com/zawphyo.jt" target="blank" class="namess">Justro</span></a><span class="zay"><a href="https://www.facebook.com/minthant.thantk" class="namess"> WenD'go</a></span>
       </div>
       <div class="pic2">
-      <span class="admin1"><a href="https://www.facebook.com/phupwint.aung.98" target="blank" ><img src="phuu.png" alt="" class="admin"></a></span><span class="admin1"><a href="https://www.facebook.com/Ichigoxclipse1" target="blank"><img src="Zarni.jpg" alt="" class="admin"></a></span>
+      <span class="admin1"><a href="https://www.facebook.com/phupwint.aung.98" target="blank" ><img src="Phoopp.jpg" alt="" class="admin"></a></span><span class="admin1"><a href="https://www.facebook.com/Ichigoxclipse1" target="blank"><img src="Zarni.jpg" alt="" class="admin"></a></span>
       </div>
       <div class="adminname1">
         <span class="phu"><a href="https://www.facebook.com/phupwint.aung.98" target="blank" class="namess">プープイン</a> </span><span class="zar"><a href="https://www.facebook.com/Ichigoxclipse1" target="blank" class="namess">イチゴ</a> </span>
