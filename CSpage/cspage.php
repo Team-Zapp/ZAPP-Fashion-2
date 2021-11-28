@@ -319,22 +319,22 @@
         <div class="panel active" style="
               background-image: url('men slider 5.jpg');
             ">
-          <h3>Explore the World</h3>
+          <h3></h3>
         </div>
         <div class="panel" style="
               background-image: url('men slider 4.jpg');
             ">
-          <h3>Get Paid</h3>
+          <h3></h3>
         </div>
         <div class="panel" style="
               background-image: url('men slider 3.jpg');
             ">
-          <h3>Workout</h3>
+          <h3></h3>
         </div>
         <div class="panel" style="
               background-image: url('men slider1.jpg');
             ">
-          <h3>Be Better</h3>
+          <h3></h3>
         </div>
         <div class="panel" style="
               background-image: url('men slider 2.jpg');
@@ -457,27 +457,27 @@
         <div class="panel active" style="
               background-image: url('burgess-milner-OYYE4g-I5ZQ-unsplash.jpg');
             ">
-          <h3>Explore the World</h3>
+          <h3></h3>
         </div>
         <div class="panel" style="
               background-image: url('women slider 1.jpg');
             ">
-          <h3>Get Paid</h3>
+          <h3></h3>
         </div>
         <div class="panel" style="
               background-image: url('women slider 2.jpg');
             ">
-          <h3>Workout</h3>
+          <h3></h3>
         </div>
         <div class="panel" style="
               background-image: url('women slider 3.jpg');
             ">
-          <h3>Be Better</h3>
+          <h3></h3>
         </div>
         <div class="panel" style="
               background-image: url('women slider 4.jpg');
             ">
-          <h3>Care</h3>
+          <h3></h3>
         </div>
       </div>
       <!--Expanding Card End-->
@@ -592,27 +592,27 @@
       <div class="container">
         <!--Expanding Card start-->
         <div class="panel active" style="
-              background-image: url('burgess-milner-OYYE4g-I5ZQ-unsplash.jpg');
+              background-image: url('kid slider 6.jpg');
             ">
-          <h3>Explore the World</h3>
+          <h3></h3>
         </div>
         <div class="panel" style="
-              background-image: url('women slider 1.jpg');
+              background-image: url('Kid slider 2.jpg');
             ">
-          <h3>Get Paid</h3>
+          <h3></h3>
         </div>
         <div class="panel" style="
-              background-image: url('women slider 2.jpg');
+              background-image: url('Kid slider 3.jpg');
             ">
-          <h3>Workout</h3>
+          <h3></h3>
         </div>
         <div class="panel" style="
-              background-image: url('women slider 3.jpg');
+              background-image: url('kid slider 4.jpg');
             ">
-          <h3>Be Better</h3>
+          <h3></h3>
         </div>
         <div class="panel" style="
-              background-image: url('women slider 4.jpg');
+              background-image: url('kid slider 5.jpg');
             ">
           <h3>Care</h3>
         </div>
