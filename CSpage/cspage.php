@@ -306,7 +306,7 @@
   <!--Home End -->
   <div class="Men">
     <div class="feature">
-      <h2 class="fs-2 fw-bold fst-italic">Feature</h2>
+      <h2 class="fs-2 fw-bold fst-italic"></h2>
     </div>
     <div class="cards1">
       <!-- Card start-->
@@ -444,7 +444,7 @@
   <!-- Women Start -->
   <div class="Women">
     <div class="feature">
-      <h2 class="fs-2 fw-bold fst-italic">Feature</h2>
+      <h2 class="fs-2 fw-bold fst-italic"></h2>
     </div>
     <div class="cards1">
       <!-- Card start-->
@@ -581,7 +581,7 @@
   <!-- Kid Start -->
   <div class="Kid">
     <div class="feature">
-      <h2 class="fs-2 fw-bold fst-italic">Feature</h2>
+      <h2 class="fs-2 fw-bold fst-italic"></h2>
     </div>
     <div class="cards1">
       <!-- Card start-->
@@ -727,16 +727,16 @@
     <div class="room">
     <h3 class="footerheadtext">Developed By</h3>
       <div class="pic1">
-        <span class="admin1"><img src="zaw.png" alt="" class="admin"></span><span class="admin1"><img src="zayar1.jpg" alt="" class="admin2"></span>
+        <span class="admin1"><a href="https://www.facebook.com/zawphyo.jt" target="blank"><img src="zaw.png" alt="" class="admin"></a></span><span class="admin1"><a href="https://www.facebook.com/minthant.thantk" target="blank"><img src="Zayr Htet PP.jpg" alt="" class="admin3"></a></span>
       </div>
       <div class="adminname1">
-        <span class="zaw">Zaw</span><span class="zay">Zay</span>
+        <span class="zaw"><a href="https://www.facebook.com/zawphyo.jt" target="blank" class="namess">Justro</span></a><span class="zay"><a href="https://www.facebook.com/minthant.thantk" class="namess"> WenD'go</a></span>
       </div>
       <div class="pic2">
-      <span class="admin1"><img src="phuu.png" alt="" class="admin"></span><span class="admin1"><img src="Zarni.jpg" alt="" class="admin"></span>
+      <span class="admin1"><a href="https://www.facebook.com/phupwint.aung.98" target="blank" ><img src="phuu.png" alt="" class="admin"></a></span><span class="admin1"><a href="https://www.facebook.com/Ichigoxclipse1" target="blank"><img src="Zarni.jpg" alt="" class="admin"></a></span>
       </div>
       <div class="adminname1">
-        <span class="phu">Phuu</span><span class="zar">Zarni</span>
+        <span class="phu"><a href="https://www.facebook.com/phupwint.aung.98" target="blank" class="namess">プープイン</a> </span><span class="zar"><a href="https://www.facebook.com/Ichigoxclipse1" target="blank" class="namess">イチゴ</a> </span>
       </div>
     </div>
     <div class="room">
@@ -744,7 +744,7 @@
       <p class="footerinnertext">FAQ</p>
       <p class="footerinnertext">TERMS & CONDITIONS</p>
       <p class="footerinnertext">PRIVACY POLICY</p>
-      <p class="footerinnertext">TOO LAZY TO ADD</p>
+      <p class="footerinnertext">SHOP LOCATIONS</p>
     </div>
     <div class="room2">
     <h3 class="footerheadtext">Connect With Us</h3>
