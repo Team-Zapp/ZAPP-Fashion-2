@@ -94,6 +94,7 @@ if (isset($_POST["submit"])) {
         title: 'Username Not Found'
     })</script></body>";
         echo "<script>localStorage.clear();</script>";
-        header("Location: login.php");
+        // header("Location: login.php")
+        require "login.php";
     }
 }
