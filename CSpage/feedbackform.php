@@ -16,7 +16,7 @@
 </head>
 
 <body>
-    <form action="userfeedback.php?id=<?php echo $_GET['id'] ?>" method="POST" style="margin-top: 15%;">
+    <form action="../Controllers/UserFeedbacks.php?id=<?php echo $_GET['id'] ?>" method="POST" style="margin-top: 15%;">
         <div class="white-panel">
             <div class="login-show" align="center">
                 <h2 class="form_head" align="center" style="margin-bottom:10vh ;">Leave us a review</h2>

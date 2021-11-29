@@ -35,7 +35,7 @@ $(document).ready(function () {
 
     $.ajax({
       type: "post",
-      url: "productinsert.php",
+      url: "../Controllers/BuyoutDatas.php",
       data: { send: JSON.stringify(senddata) },
       success: function (data) {
         let returnmessage = JSON.parse(data);
@@ -68,7 +68,7 @@ $(document).ready(function () {
   $("#feedback").click(function () {
     $("#feedbackform").attr(
       "href",
-      "feedbackform.php?id=" + sessionStorage.getItem("UserID")
+      "FeedbackForm.php?id=" + sessionStorage.getItem("UserID")
     );
   });
   $.get("cslinks.html", function (data) {
@@ -76,7 +76,7 @@ $(document).ready(function () {
   });
   $.ajax({
     type: "get",
-    url: "add.php",
+    url: "../Controllers/ProductData.php",
     success: function (data) {
       let Mdata = JSON.parse(data);
       console.log(Mdata);
@@ -731,7 +731,7 @@ $(document).ready(function () {
   var name = sessionStorage.getItem("UserID");
   $.ajax({
     type: "post",
-    url: "usertable.php",
+    url: "../Controllers/UserTableData.php",
     data: "id=" + name,
     success: function (data) {
       console.log(data);

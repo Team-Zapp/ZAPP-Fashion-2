@@ -1,7 +1,6 @@
 <?php
 echo "<script src='//cdn.jsdelivr.net/npm/sweetalert2@11'></script>";
-echo "<script src='sweetalert2.min.js'></script>";
-echo "<link rel=stylesheet' href='sweetalert2.min.css'>";
+
 $username = $_GET["name"];
 
 

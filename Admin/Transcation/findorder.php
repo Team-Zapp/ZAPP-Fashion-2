@@ -10,7 +10,7 @@ $sql = $dbconnect->prepare("SELECT
     *
 FROM
     m_orderdetail
-INNER JOIN stock_mgmt ON m_orderdetail.itemid = stock_mgmt.id
+INNER JOIN stock_mgmt ON m_orderdetail.itemid = stock_mgmt.id WHERE orderid=$orderid 
 ");
 $sql->execute();
 $result = $sql->fetchAll(PDO::FETCH_ASSOC);

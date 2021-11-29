@@ -9,7 +9,7 @@
 	<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-	<link rel="shortcut icon" href="Logo 2.png" type="image/x-icon" />
+	<link rel="shortcut icon" href="../AdminPhotos/Logo 2.png" type="image/x-icon" />
 	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 	<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 	<link rel="stylesheet" href="style.css">
@@ -51,13 +51,13 @@
 					<span class="checkbox"><input type="checkbox" name="remember-me" id="rememberme" onchange="remember()" />
 						Remember Me</span>
 					<div class="login-div">
-						<span class="login-links"><a href="google.php" class="login-photo"><img class="googleimg" src="Google Logo.png" alt="" srcset=""></a></span>
-						<span class="login-links"><a href="https://www.facebook.com/" class="login-photo"><img class="fbimg" src="Facebook Logo.png" alt="" /></a></span>
-						<span class="login-links"><a href="https://twitter.com/i/flow/login" class="login-photo"><img class="twitimg" src="Twitter Logo.png" alt="" /></a></span>
+						<span class="login-links"><a href="google.php" class="login-photo"><img class="googleimg" src="../AdminPhotos/Google Logo.png" alt="" srcset=""></a></span>
+						<span class="login-links"><a href="https://www.facebook.com/" class="login-photo"><img class="fbimg" src="../AdminPhotos/Facebook Logo.png" alt="" /></a></span>
+						<span class="login-links"><a href="https://twitter.com/i/flow/login" class="login-photo"><img class="twitimg" src="../AdminPhotos/Twitter Logo.png" alt="" /></a></span>
 					</div>
 				</div>
 		</form>
-		<form action="newCustomers.php" method="POST">
+		<form action="../../Controllers/newCustomers.php" method="POST">
 			<div class="register-show">
 				<h2 class="form_head">Sign Up</h2>
 				<input type="text" name="name" placeholder="Name" required>

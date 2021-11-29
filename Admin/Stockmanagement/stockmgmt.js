@@ -7,7 +7,7 @@ $(document).ready(function () {
 
     $.ajax({
       type: "post",
-      url: "../../Controllers/stockmgmtinsert.php",
+      url: "../../Controllers/StockmgmtInsert.php",
       data: new FormData(this),
       contentType: false,
       cache: false,
@@ -22,18 +22,18 @@ $(document).ready(function () {
         let stock = $("#stock").val();
         let photoname = res;
         var data = {
-          "pdname": name,
-          "pdgender": gender,
-          "category": category,
-          "orgprice": orgprice,
-          "saleprice": saleprice,
-          "madeof": made,
-          "stock": stock,
-          "photonames": photoname
+          pdname: name,
+          pdgender: gender,
+          category: category,
+          orgprice: orgprice,
+          saleprice: saleprice,
+          madeof: made,
+          stock: stock,
+          photonames: photoname,
         };
         $.ajax({
           type: "post",
-          url: "../../Controllers/stockmgmtinsert.php",
+          url: "../../Controllers/StockmgmtInsert.php",
           data: { send: JSON.stringify(data) },
           success: function (data) {
             Swal.fire({
@@ -44,12 +44,11 @@ $(document).ready(function () {
               confirmButtonColor: "#3085d6",
               confirmButtonText: "Ok",
               backdrop: false,
-            })
+            });
             document.getElementById("chart").innerHTML = "";
             stock = [];
             categories = [];
             remainStock();
-
           },
           error: function () {
             alert("An Error has Occured");
@@ -68,21 +67,20 @@ $(document).ready(function () {
     let stock = $("#stock").val();
     let id = $("#forid").text();
     var data = {
-      "name": name,
-      "gender": gender,
-      "category": category,
-      "orgprice": orgprice,
-      "saleprice": saleprice,
-      "made": made,
-      "stock": stock,
-      "id": id,
+      name: name,
+      gender: gender,
+      category: category,
+      orgprice: orgprice,
+      saleprice: saleprice,
+      made: made,
+      stock: stock,
+      id: id,
     };
     $.ajax({
-      type: 'post',
-      url: 'nameUpdate.php',
-      data: {send : JSON.stringify(data)},
-      success :function(data){
-
+      type: "post",
+      url: "../../Controllers/StockNameUpdate.php",
+      data: { send: JSON.stringify(data) },
+      success: function (data) {
         Swal.fire({
           title: "Product Successfully Updated",
           icon: "success",
@@ -95,13 +93,11 @@ $(document).ready(function () {
           }
         });
       },
-      error: function(){
-        alert("An Error has Occured")
-      }
-  })
-
-
-  })
+      error: function () {
+        alert("An Error has Occured");
+      },
+    });
+  });
   document.getElementById("delete").addEventListener("click", function () {
     let id = $("#forid").text();
     var data = {
@@ -122,7 +118,7 @@ $(document).ready(function () {
       if (result.isConfirmed) {
         $.ajax({
           type: "post",
-          url: "nameDelete.php",
+          url: "../../Controllers/StockDelete.php",
           data: { send: JSON.stringify(data) },
           success: function (data) {
             Swal.fire({
@@ -159,7 +155,7 @@ $(document).ready(function () {
     var name = document.getElementById("name").value;
     $.ajax({
       type: "post",
-      url: "nameSearch.php",
+      url: "../../Controllers/StockSearch.php",
       data: "name=" + name,
       success: function (data) {
         let json = JSON.parse(data);
@@ -324,23 +320,24 @@ $(document).ready(function () {
     document.getElementById("date").innerHTML = month + "/" + date;
 
     if (sessionStorage.getItem("AdminName") == "Zay") {
-      document.getElementById("adminPic").setAttribute("src", "~Chuky~.jpg");
+      document
+        .getElementById("adminPic")
+        .setAttribute("src", "../AdminPhotos/~Chuky~~Chuky~.jpg");
     }
     if (sessionStorage.getItem("AdminName") == "Zar") {
       document
         .getElementById("adminPic")
-        .setAttribute(
-          "src",
-          "Lets go home, cityscape, bicycle ride, sunset, clouds, art wallpaper.png"
-        );
+        .setAttribute("src", "../AdminPhotos/Lets go home.png");
     }
     if (sessionStorage.getItem("AdminName") == "Zaw") {
       document
         .getElementById("adminPic")
-        .setAttribute("src", "A sunset behind the mountain [3840x2160].jpg");
+        .setAttribute("src", "../AdminPhotos/A sunset.jpg");
     }
     if (sessionStorage.getItem("AdminName") == "Phu") {
-      document.getElementById("adminPic").setAttribute("src", "flower.jpg");
+      document
+        .getElementById("adminPic")
+        .setAttribute("src", "../AdminPhotos/flower.jpg");
     }
   });
 });
@@ -350,7 +347,7 @@ remainStock();
 function remainStock() {
   $.ajax({
     type: "get",
-    url: "stock.php",
+    url: "../../Controllers/Stock.php",
     success: function (data) {
       let json = JSON.parse(data);
       stock = [];

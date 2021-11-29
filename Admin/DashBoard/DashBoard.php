@@ -5,11 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="jquary.js"></script>
-    <script src="script.js" defer></script>
+    <script src="jquery.js"></script>
+    <script src="Dashboard.js" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
-    <link rel="shortcut icon" href="logo 2.png" type="image/x-icon" />
+    <link rel="shortcut icon" href="../AdminPhotos/Logo 2.png" type="image/x-icon" />
     <link rel="stylesheet" href="style.css">
     <title>Dashboard</title>
 </head>
@@ -62,6 +62,8 @@
         </div>
     </div>
     <div class="footer"> Copyright : <span>&#169;</span>ZAPP</div>
+
+    
 </body>
 
 </html>

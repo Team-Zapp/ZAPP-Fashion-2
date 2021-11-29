@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="style.css" />
-  <link rel="shortcut icon" href="Logo 2.png" type="image/x-icon" />
+  <link rel="shortcut icon" href="../Admin/AdminPhotos/Logo 2.png" type="image/x-icon" />
 
   <script src="jquery.js"></script>
   <script src="script.js" defer></script>
@@ -32,7 +32,7 @@
 
   <div class="header">
     <div class="bg-white py-3 head">
-      <img src="LogoSample_ByTailorBrands.png" alt="" class="logo" href="#"/>
+      <img src="../Admin/AdminPhotos/LogoSample_ByTailorBrands.png" alt="" class="logo" href="#"/>
       <div class="titles">
         <span class="name homebtn">HOME</span>
         <span class="name manbtn">MEN</span>
@@ -89,7 +89,7 @@
         </button>
         <div class="userprofile">
 
-            <img src="userprofile.png" alt="" class="userpic" id="userpic">
+            <img src="Page Photos/userprofile.png" alt="" class="userpic" id="userpic">
             <p class="usernames" id="profilenames"></p>
             <p class="usernames" id="profileemailaddress"></p>
             <button class="logout btn-outline-warning" id="logout"><a href="../Admin/LoginForm/login.php" class="logout1">Logout</a></button>
@@ -256,7 +256,7 @@
             <div class=" hmslider1">
                 <div class="card hmcard2" style="width: 30vw;" data-aos="fade-right" data-aos-easing="linear"
                     data-aos-duration="700">
-                    <img src="dave-goudreau-rsphsaAROz0-unsplash.jpg" class="card-img-top" alt="...">
+                    <img src="Page Photos/blackjackedsitting.jpg" class="card-img-top" alt="...">
                     <div class="card-body hmslide1body">
                         <a href="#" class="btn btn-primary hmslidebt" id="hmbtn1">Shop Now</a>
                     </div>
@@ -275,7 +275,7 @@
                 </div>
                 <div class="card hmcard2" style="width: 30vw;" data-aos="fade-left" data-aos-easing="linear"
                     data-aos-duration="700">
-                    <img src="homeslide2.jpg" class="card-img-top hmcard2" alt="...">
+                    <img src="Page Photos/homeslide2.jpg" class="card-img-top hmcard2" alt="...">
                     <div class="card-body hmslide2body">
                         <a href="#" class="btn btn-primary hmslidebt" id="hmbtn2">Shop Now</a>
                     </div>
@@ -317,27 +317,27 @@
       <div class="container">
         <!--Expanding Card start-->
         <div class="panel active" style="
-              background-image: url('men slider 5.jpg');
+              background-image: url('Page Photos/men slider 5.jpg');
             ">
           <h3></h3>
         </div>
         <div class="panel" style="
-              background-image: url('men slider 4.jpg');
+              background-image: url('Page Photos/men slider 4.jpg');
             ">
           <h3></h3>
         </div>
         <div class="panel" style="
-              background-image: url('men slider 3.jpg');
+              background-image: url('Page Photos/men slider 3.jpg');
             ">
           <h3></h3>
         </div>
         <div class="panel" style="
-              background-image: url('men slider1.jpg');
+              background-image: url('Page Photos/men slider1.jpg');
             ">
           <h3></h3>
         </div>
         <div class="panel" style="
-              background-image: url('men slider 2.jpg');
+              background-image: url('Page Photos/men slider 2.jpg');
             ">
           <h3>Care</h3>
         </div>
@@ -455,27 +455,27 @@
       <div class="container">
         <!--Expanding Card start-->
         <div class="panel active" style="
-              background-image: url('burgess-milner-OYYE4g-I5ZQ-unsplash.jpg');
+              background-image: url('Page Photos/burgess-milner-OYYE4g-I5ZQ-unsplash.jpg');
             ">
           <h3></h3>
         </div>
         <div class="panel" style="
-              background-image: url('women slider 1.jpg');
+              background-image: url('Page Photos/women slider 1.jpg');
             ">
           <h3></h3>
         </div>
         <div class="panel" style="
-              background-image: url('women slider 2.jpg');
+              background-image: url('Page Photos/women slider 2.jpg');
             ">
           <h3></h3>
         </div>
         <div class="panel" style="
-              background-image: url('women slider 3.jpg');
+              background-image: url('Page Photos/women slider 3.jpg');
             ">
           <h3></h3>
         </div>
         <div class="panel" style="
-              background-image: url('women slider 4.jpg');
+              background-image: url('Page Photos/women slider 4.jpg');
             ">
           <h3></h3>
         </div>
@@ -592,27 +592,27 @@
       <div class="container">
         <!--Expanding Card start-->
         <div class="panel active" style="
-              background-image: url('kid slider 6.jpg');
+              background-image: url('Page Photos/kid slider 6.jpg');
             ">
           <h3></h3>
         </div>
         <div class="panel" style="
-              background-image: url('Kid slider 2.jpg');
+              background-image: url('Page Photos/Kid slider 2.jpg');
             ">
           <h3></h3>
         </div>
         <div class="panel" style="
-              background-image: url('Kid slider 3.jpg');
+              background-image: url('Page Photos/Kid slider 3.jpg');
             ">
           <h3></h3>
         </div>
         <div class="panel" style="
-              background-image: url('kid slider 4.jpg');
+              background-image: url('Page Photos/kid slider 4.jpg');
             ">
           <h3></h3>
         </div>
         <div class="panel" style="
-              background-image: url('kid slider 5.jpg');
+              background-image: url('Page Photos/kid slider 5.jpg');
             ">
           <h3>Care</h3>
         </div>
@@ -727,13 +727,13 @@
     <div class="room">
     <h3 class="footerheadtext">Developed By</h3>
       <div class="pic1">
-        <span class="admin1"><a href="https://www.facebook.com/zawphyo.jt" target="blank"><img src="zaw.png" alt="" class="admin"></a></span><span class="admin1"><a href="https://www.facebook.com/minthant.thantk" target="blank"><img src="Zayr Htet PP.jpg" alt="" class="admin3"></a></span>
+        <span class="admin1"><a href="https://www.facebook.com/zawphyo.jt" target="blank"><img src="Page Photos/zaw.png" alt="" class="admin"></a></span><span class="admin1"><a href="https://www.facebook.com/minthant.thantk" target="blank"><img src="Page Photos/Zayr Htet PP.jpg" alt="" class="admin3"></a></span>
       </div>
       <div class="adminname1">
         <span class="zaw"><a href="https://www.facebook.com/zawphyo.jt" target="blank" class="namess">Justro</span></a><span class="zay"><a href="https://www.facebook.com/minthant.thantk" class="namess"> WenD'go</a></span>
       </div>
       <div class="pic2">
-      <span class="admin1"><a href="https://www.facebook.com/phupwint.aung.98" target="blank" ><img src="Phoopp.jpg" alt="" class="admin"></a></span><span class="admin1"><a href="https://www.facebook.com/Ichigoxclipse1" target="blank"><img src="Zarni.jpg" alt="" class="admin"></a></span>
+      <span class="admin1"><a href="https://www.facebook.com/phupwint.aung.98" target="blank" ><img src="Page Photos/Phoopp.jpg" alt="" class="admin"></a></span><span class="admin1"><a href="https://www.facebook.com/Ichigoxclipse1" target="blank"><img src="Page Photos/Zarni.jpg" alt="" class="admin"></a></span>
       </div>
       <div class="adminname1">
         <span class="phu"><a href="https://www.facebook.com/phupwint.aung.98" target="blank" class="namess">プープイン</a> </span><span class="zar"><a href="https://www.facebook.com/Ichigoxclipse1" target="blank" class="namess">イチゴ</a> </span>

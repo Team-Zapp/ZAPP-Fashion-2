@@ -35,7 +35,7 @@ if (isset($_POST["submit"])) {
                 })
                 </script></body>";
                 echo "<script>localStorage.clear();</script>";
-                require "login.php";
+                require "Login.php";
             }
         }
 
@@ -76,9 +76,9 @@ if (isset($_POST["submit"])) {
                     $sql->execute();
 
                     echo $result[0]['id'];
-                    header("Location: ../../CSpage/cspage.php?id=" . $result[0]["id"]);
+                    header("Location: ../../CSpage/CSpage.php?id=" . $result[0]["id"]);
                 }
-                require "login.php";
+                require "Login.php";
             } else {
                 echo "<body><script>Swal.fire({
                     icon: 'error',
@@ -95,6 +95,6 @@ if (isset($_POST["submit"])) {
     })</script></body>";
         echo "<script>localStorage.clear();</script>";
         // header("Location: login.php")
-        require "login.php";
+        require "Login.php";
     }
 }

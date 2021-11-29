@@ -20,7 +20,7 @@
 
 
 
-    <form action="FindUser.php" method="POST">
+    <form action="../../Controllers/FindUser.php" method="POST">
         <div class="white-panel">
             <div class="login-show">
                 <h2 class="form_head">Please type in your Username.</h2>

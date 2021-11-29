@@ -1009,17 +1009,17 @@ body {
 }
 .example-slider .fnc-slide-1 .fnc-slide__inner,
 .example-slider .fnc-slide-1 .fnc-slide__mask-inner {
-  background-image: url("men fashion.jpg");
+  background-image: url("Page Photos/men fashion.jpg");
 }
 
 .example-slider .fnc-slide-2 .fnc-slide__inner,
 .example-slider .fnc-slide-2 .fnc-slide__mask-inner {
-  background-image: url("woman fashion.jpg");
+  background-image: url("Page Photos/woman fashion.jpg");
 }
 
 .example-slider .fnc-slide-3 .fnc-slide__inner,
 .example-slider .fnc-slide-3 .fnc-slide__mask-inner {
-  background-image: url("night out.jpg");
+  background-image: url("Page Photos/night out.jpg");
 }
 
 .example-slider .fnc-slide-3 .fnc-slide__inner:before {
@@ -1034,7 +1034,7 @@ body {
 
 .example-slider .fnc-slide-4 .fnc-slide__inner,
 .example-slider .fnc-slide-4 .fnc-slide__mask-inner {
-  background-image: url("kid fashion.jpg");
+  background-image: url("Page Photos/kid fashion.jpg");
 }
 
 .example-slider .fnc-slide-4 .fnc-slide__inner:before {

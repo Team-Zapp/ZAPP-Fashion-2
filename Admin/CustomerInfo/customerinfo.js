@@ -1,7 +1,7 @@
 $(document).ready(function () {
   $.ajax({
     type: "get",
-    url: "usertier.php",
+    url: "../../Controllers/CustomerInfoTier.php",
     success: function (data) {
       let json = JSON.parse(data);
       var count1 = 0;
@@ -47,7 +47,7 @@ $(document).ready(function () {
           `
           );
         }
-        if (x.totalbudget > 500 && x.totalbudget < 1000) {
+        if (x.totalbudget < 1000) {
           count3++;
           $("#table3 tbody").append(
             `
@@ -87,14 +87,14 @@ $.get("../../deflink.html", function (data) {
     .getElementById("href2")
     .setAttribute(
       "href",
-      "../Stockmanagement/stockmanagement.php?name=" +
+      "../Stockmanagement/StockManagement.php?name=" +
         sessionStorage.getItem("AdminName")
     );
   document
     .getElementById("href3")
     .setAttribute(
       "href",
-      "../CustomerInfo/Customerinfo.php?name=" +
+      "../CustomerInfo/CustomerInfo.php?name=" +
         sessionStorage.getItem("AdminName")
     );
   document
@@ -108,7 +108,7 @@ $.get("../../deflink.html", function (data) {
     .getElementById("href5")
     .setAttribute(
       "href",
-      "../FeedBack/feedback.php?name=" + sessionStorage.getItem("AdminName")
+      "../FeedBack/Feedback.php?name=" + sessionStorage.getItem("AdminName")
     );
   const d = new Date();
   let date = d.getDate();
@@ -134,22 +134,23 @@ $.get("../../deflink.html", function (data) {
   document.getElementById("date").innerHTML = month + "/" + date;
 
   if (sessionStorage.getItem("AdminName") == "Zay") {
-    document.getElementById("adminPic").setAttribute("src", "~Chuky~.jpg");
+    document
+      .getElementById("adminPic")
+      .setAttribute("src", "../AdminPhotos/~Chuky~.jpg");
   }
   if (sessionStorage.getItem("AdminName") == "Zar") {
     document
       .getElementById("adminPic")
-      .setAttribute(
-        "src",
-        "Lets go home, cityscape, bicycle ride, sunset, clouds, art wallpaper.png"
-      );
+      .setAttribute("src", "../AdminPhotos/Lets go home.png");
   }
   if (sessionStorage.getItem("AdminName") == "Zaw") {
     document
       .getElementById("adminPic")
-      .setAttribute("src", "A sunset behind the mountain [3840x2160].jpg");
+      .setAttribute("src", "../AdminPhotos/A sunset.jpg");
   }
   if (sessionStorage.getItem("AdminName") == "Phu") {
-    document.getElementById("adminPic").setAttribute("src", "flower.jpg");
+    document
+      .getElementById("adminPic")
+      .setAttribute("src", "../AdminPhotos/flower.jpg");
   }
 });
