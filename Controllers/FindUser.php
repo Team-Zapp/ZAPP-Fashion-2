@@ -23,6 +23,11 @@ if (count($result) > 0) {
     echo "<body><script>Swal.fire({
         icon: 'error',
         title: 'Username not found'
-    })</script></body>";
-    require "../Admin/LoginForm/ForgetPassword.php";
+    })
+    setTimeout(() => {
+    window.location='../Admin/LoginForm/ForgetPassword.php';
+    }, 1500);
+    </script></body>";
+    //header("Location: ../Admin/LoginForm/ForgetPassword.php");
+    
 }

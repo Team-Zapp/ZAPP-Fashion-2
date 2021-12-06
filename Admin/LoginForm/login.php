@@ -51,7 +51,7 @@
 					<span class="checkbox"><input type="checkbox" name="remember-me" id="rememberme" onchange="remember()" />
 						Remember Me</span>
 					<div class="login-div">
-						<span class="login-links"><a href="google.php" class="login-photo"><img class="googleimg" src="../AdminPhotos/Google Logo.png" alt="" srcset=""></a></span>
+						<span class="login-links"><a href="https://accounts.google.com/ServiceLogin/signinchooser?elo=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin" class="login-photo"><img class="googleimg" src="../AdminPhotos/Google Logo.png" alt="" srcset=""></a></span>
 						<span class="login-links"><a href="https://www.facebook.com/" class="login-photo"><img class="fbimg" src="../AdminPhotos/Facebook Logo.png" alt="" /></a></span>
 						<span class="login-links"><a href="https://twitter.com/i/flow/login" class="login-photo"><img class="twitimg" src="../AdminPhotos/Twitter Logo.png" alt="" /></a></span>
 					</div>

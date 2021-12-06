@@ -11,13 +11,10 @@
   <script src="jquery.js"></script>
   <script src="script.js" defer></script>
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-  <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css"
-    />
-    <script src="https://use.fontawesome.com/9108902538.js"></script>
-    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.css" />
+  <script src="https://use.fontawesome.com/9108902538.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous" />
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
   <title>Zapp Fashion</title>
@@ -32,14 +29,14 @@
 
   <div class="header">
     <div class="bg-white py-3 head">
-      <img src="../Admin/AdminPhotos/LogoSample_ByTailorBrands.png" alt="" class="logo" href="#"/>
+      <img src="../Admin/AdminPhotos/LogoSample_ByTailorBrands.png" alt="" class="logo" href="#" />
       <div class="titles">
         <span class="name homebtn">HOME</span>
         <span class="name manbtn">MEN</span>
         <span class="name womanbtn">WOMEN</span>
         <span class="name kidbtn">KID</span>
-        
- 
+
+
         <button class="btn btn-outline-warning user" type="submit" id="feedback">
           <a href="" id="feedbackform">
             <p class="User">FeedBack</p>
@@ -47,7 +44,7 @@
         </button>
       </div>
     </div>
-    
+
     <!--FixedBar Start-->
     <div class="FixedBar">
       <nav id="navbar_top" class="navbar navbar-expand-lg navbar-dark ulclass">
@@ -70,31 +67,32 @@
             </ul>
           </div>
           <div id="cart-alert-parent" class="container d-flex justify-content-center">
-              <div id="cart-alert" class="alert alert-success addtocart" role="alert">
-                Add to Your Cart!
-              </div>
+            <div id="cart-alert" class="alert alert-success addtocart" role="alert">
+              Add to Your Cart!
             </div>
-            <ul class="navbar-nav" >
-              <li class="nav-item">
-                <div id="cart-button" class="nav-link" data-toggle="modal" data-target="#exampleModal">
-                          <button class="btn btn-outline-warning cart" type="submit">
-                        <ion-icon name="cart-outline" class="Cart"></ion-icon>
-                        <span id="cart-total-page" class="badge badge-pill badge-danger">0</span></button>
-                </div>
-              </li>
-            </ul>
-    
-            <button class="btn btn-outline-warning profile" type="submit" >
-        <ion-icon name="person-outline" class="User1"></ion-icon>
-        </button>
-        <div class="userprofile">
+          </div>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <div id="cart-button" class="nav-link" data-toggle="modal" data-target="#exampleModal">
+                <button class="btn btn-outline-warning cart" type="submit">
+                  <ion-icon name="cart-outline" class="Cart"></ion-icon>
+                  <span id="cart-total-page" class="badge badge-pill badge-danger">0</span>
+                </button>
+              </div>
+            </li>
+          </ul>
+
+          <button class="btn btn-outline-warning profile" type="submit">
+            <ion-icon name="person-outline" class="User1"></ion-icon>
+          </button>
+          <div class="userprofile">
 
             <img src="Page Photos/userprofile.png" alt="" class="userpic" id="userpic">
             <p class="usernames" id="profilenames"></p>
             <p class="usernames" id="profileemailaddress"></p>
             <button class="logout btn-outline-warning" id="logout"><a href="../Admin/LoginForm/login.php" class="logout1">Logout</a></button>
 
-        </div>
+          </div>
           <!-- navbar-collapse.// -->
         </div>
         <!-- container-fluid.// -->
@@ -105,204 +103,200 @@
 
   <!-- Home Start -->
   <div class="Home">
-            <div class="slider homeslide" id="scrollspyHeadinghome">
-                <div class="homemainslide homeslide">
-                    <!-- slider start -->
-                    <div class="fnc-slider example-slider">
-                        <div class="fnc-slider__slides">
-                            <!-- slide start -->
-                            <div class="fnc-slide m--blend-green m--active-slide">
-                                <div class="fnc-slide__inner">
-                                    <div class="fnc-slide__mask">
-                                        <div class="fnc-slide__mask-inner"></div>
-                                    </div>
-                                    <div class="fnc-slide__content">
-                                        <h2 class="fnc-slide__heading">
-                                            <div class="fnc-slide__heading-line">
-                                                <span>New </span>
-                                            </div>
-                                            <div class="fnc-slide__heading-line">
-                                                <span>Normal</span>
-                                            </div>
-                                        </h2>
-                                        <button type="button" class="fnc-slide__action-btn">
-                                            <a href="#aboutuswords">About Us
-
-                                                <span data-text="About Us">About Us</span></a>
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- slide end -->
-                            <!-- slide start -->
-                            <div class="fnc-slide m--blend-dark">
-                                <div class="fnc-slide__inner">
-                                    <div class="fnc-slide__mask">
-                                        <div class="fnc-slide__mask-inner"></div>
-                                    </div>
-                                    <div class="fnc-slide__content">
-                                        <h2 class="fnc-slide__heading">
-                                            <div class="fnc-slide__heading-line">
-                                                <span>New</span>
-                                            </div>
-                                            <div class="fnc-slide__heading-line">
-                                                <span>Designs</span>
-                                            </div>
-                                        </h2>
-                                        <button type="button" class="fnc-slide__action-btn">
-                                            <a href="#aboutuswords">About Us
-
-                                                <span data-text="About Us">About Us</span></a>
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- slide end -->
-                            <!-- slide start -->
-                            <div class="fnc-slide m--blend-red">
-                                <div class="fnc-slide__inner">
-                                    <div class="fnc-slide__mask">
-                                        <div class="fnc-slide__mask-inner"></div>
-                                    </div>
-                                    <div class="fnc-slide__content">
-                                        <h2 class="fnc-slide__heading">
-                                            <div class="fnc-slide__heading-line">
-                                                <span>Fresh</span>
-                                            </div>
-                                            <div class="fnc-slide__heading-line">
-                                                <span>Night Out</span>
-                                            </div>
-                                        </h2>
-                                        <button type="button" class="fnc-slide__action-btn">
-                                            <a href="#aboutuswords">About Us
-
-                                                <span data-text="About Us">About Us</span></a>
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- slide end -->
-                            <!-- slide start -->
-                            <div class="fnc-slide m--blend-blue">
-                                <div class="fnc-slide__inner">
-                                    <div class="fnc-slide__mask">
-                                        <div class="fnc-slide__mask-inner"></div>
-                                    </div>
-                                    <div class="fnc-slide__content">
-                                        <h2 class="fnc-slide__heading">
-                                            <div class="fnc-slide__heading-line">
-                                                <span>Not Only</span>
-                                            </div>
-                                            <div class="fnc-slide__heading-line">
-                                                <span>Adault</span>
-                                            </div>
-                                        </h2>
-                                        <button type="button" class="fnc-slide__action-btn"><a
-                                                href="#aboutuswords">About Us
-
-                                                <span data-text="About Us">About Us</span></a>
-                                        </button>
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- slide end -->
-                        </div>
-                        <nav class="fnc-nav">
-                            <div class="fnc-nav__bgs">
-                                <div class="fnc-nav__bg m--navbg-green m--active-nav-bg"></div>
-                                <div class="fnc-nav__bg m--navbg-dark"></div>
-                                <div class="fnc-nav__bg m--navbg-red"></div>
-                                <div class="fnc-nav__bg m--navbg-blue"></div>
-                            </div>
-                            <div class="fnc-nav__controls">
-                                <button class="fnc-nav__control">
-                                    New Normal
-                                    <span class="fnc-nav__control-progress"></span>
-                                </button>
-                                <button class="fnc-nav__control">
-                                    New Designs
-                                    <span class="fnc-nav__control-progress"></span>
-                                </button>
-                                <button class="fnc-nav__control">
-                                    Fresh Night Out
-                                    <span class="fnc-nav__control-progress"></span>
-                                </button>
-                                <button class="fnc-nav__control">
-                                    Not only Adault
-                                    <span class="fnc-nav__control-progress"></span>
-                                </button>
-                            </div>
-                        </nav>
+    <div class="slider homeslide" id="scrollspyHeadinghome">
+      <div class="homemainslide homeslide">
+        <!-- slider start -->
+        <div class="fnc-slider example-slider">
+          <div class="fnc-slider__slides">
+            <!-- slide start -->
+            <div class="fnc-slide m--blend-green m--active-slide">
+              <div class="fnc-slide__inner">
+                <div class="fnc-slide__mask">
+                  <div class="fnc-slide__mask-inner"></div>
+                </div>
+                <div class="fnc-slide__content">
+                  <h2 class="fnc-slide__heading">
+                    <div class="fnc-slide__heading-line">
+                      <span>New </span>
                     </div>
-                </div>
-            </div>
-
-            <!-- home words -->
-            <div class="homewords" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
-                <h3 class="homehead">Clothing & Shoes</h3>
-                <p class="homep">As a creator, you look for ways to excel and express yourself when and where you
-                    can, from
-                    reaching for that last rep to evolving your streetwear style. Log miles or tear down the
-                    baseline in
-                    shoes with responsive cushioning. Rep an athletic style off the field in lifestyle apparel born
-                    of sport
-                    heritage. From athletes to streetwear enthusiasts, zapp clothing and shoes exist to let you go
-                    harder,
-                    dig deeper, and get the most out of yourself, from the pitch to the street to the road less
-                    traveled.
-                </p>
-            </div>
-            <!-- Home slider -->
-            <div class=" hmslider1">
-                <div class="card hmcard2" style="width: 30vw;" data-aos="fade-right" data-aos-easing="linear"
-                    data-aos-duration="700">
-                    <img src="Page Photos/blackjackedsitting.jpg" class="card-img-top" alt="...">
-                    <div class="card-body hmslide1body">
-                        <a href="#" class="btn btn-primary hmslidebt" id="hmbtn1">Shop Now</a>
+                    <div class="fnc-slide__heading-line">
+                      <span>Normal</span>
                     </div>
-                </div>
-                <div class="homeslider1_text" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
-                    <p>What you wear is how you present yourself to the world, especially today, when human contacts
-                        are so quick. Fashion is instant language.</p>
-                    <p class="quotewr1">—Miuccia Prada</p>
-                </div>
-            </div>
+                  </h2>
+                  <button type="button" class="fnc-slide__action-btn">
+                    <a href="#aboutuswords">About Us
 
-            <div class=" hmslider2">
-                <div class="homeslider2_text" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
-                    <p>Whoever said that money can't buy happiness, simply didn't know where to go shopping.</p>
-                    <p class="quotewr2">—Bo Derek</p>
+                      <span data-text="About Us">About Us</span></a>
+                  </button>
                 </div>
-                <div class="card hmcard2" style="width: 30vw;" data-aos="fade-left" data-aos-easing="linear"
-                    data-aos-duration="700">
-                    <img src="Page Photos/homeslide2.jpg" class="card-img-top hmcard2" alt="...">
-                    <div class="card-body hmslide2body">
-                        <a href="#" class="btn btn-primary hmslidebt" id="hmbtn2">Shop Now</a>
+              </div>
+            </div>
+            <!-- slide end -->
+            <!-- slide start -->
+            <div class="fnc-slide m--blend-dark">
+              <div class="fnc-slide__inner">
+                <div class="fnc-slide__mask">
+                  <div class="fnc-slide__mask-inner"></div>
+                </div>
+                <div class="fnc-slide__content">
+                  <h2 class="fnc-slide__heading">
+                    <div class="fnc-slide__heading-line">
+                      <span>New</span>
                     </div>
-                </div>
-            </div>
+                    <div class="fnc-slide__heading-line">
+                      <span>Designs</span>
+                    </div>
+                  </h2>
+                  <button type="button" class="fnc-slide__action-btn">
+                    <a href="#aboutuswords">About Us
 
-            <div class="aboutuswords" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000"
-                id="aboutuswords">
-                <h3 class="homehead">About Us</h3>
-                <p class="homep">
-                    Welcome to <b>ZAPP</b>, your number one source for all Shirts, Pants & Shoes.
-                    We're dedicated to giving you the very best of products, with a focus on three characteristics,
-                    dependability, customer service and uniqueness.
-                    Founded in [2021] by Zar,Zay,Phuu & Zaw. <b>ZAPP</b> has come a long way from its beginnings in a
-                    Yanong home office. When we first started out,
-                    we passion for providing the
-                    best trending equipment for all customers. We now
-                    serve customers all over the Myanmar area, and are thrilled to be a part
-                    of the eco-friendly wing of the fashion industry.
-                </p>
-                <p class="homep">
-                    We hope you enjoy our products as much as we enjoy offering them to you. If you have any questions
-                    or
-                    comments, please don't hesitate to contact us.
-                </p>
+                      <span data-text="About Us">About Us</span></a>
+                  </button>
+                </div>
+              </div>
             </div>
+            <!-- slide end -->
+            <!-- slide start -->
+            <div class="fnc-slide m--blend-red">
+              <div class="fnc-slide__inner">
+                <div class="fnc-slide__mask">
+                  <div class="fnc-slide__mask-inner"></div>
+                </div>
+                <div class="fnc-slide__content">
+                  <h2 class="fnc-slide__heading">
+                    <div class="fnc-slide__heading-line">
+                      <span>Fresh</span>
+                    </div>
+                    <div class="fnc-slide__heading-line">
+                      <span>Night Out</span>
+                    </div>
+                  </h2>
+                  <button type="button" class="fnc-slide__action-btn">
+                    <a href="#aboutuswords">About Us
+
+                      <span data-text="About Us">About Us</span></a>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!-- slide end -->
+            <!-- slide start -->
+            <div class="fnc-slide m--blend-blue">
+              <div class="fnc-slide__inner">
+                <div class="fnc-slide__mask">
+                  <div class="fnc-slide__mask-inner"></div>
+                </div>
+                <div class="fnc-slide__content">
+                  <h2 class="fnc-slide__heading">
+                    <div class="fnc-slide__heading-line">
+                      <span>Not Only</span>
+                    </div>
+                    <div class="fnc-slide__heading-line">
+                      <span>Adault</span>
+                    </div>
+                  </h2>
+                  <button type="button" class="fnc-slide__action-btn"><a href="#aboutuswords">About Us
+
+                      <span data-text="About Us">About Us</span></a>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <!-- slide end -->
+          </div>
+          <nav class="fnc-nav">
+            <div class="fnc-nav__bgs">
+              <div class="fnc-nav__bg m--navbg-green m--active-nav-bg"></div>
+              <div class="fnc-nav__bg m--navbg-dark"></div>
+              <div class="fnc-nav__bg m--navbg-red"></div>
+              <div class="fnc-nav__bg m--navbg-blue"></div>
+            </div>
+            <div class="fnc-nav__controls">
+              <button class="fnc-nav__control">
+                New Normal
+                <span class="fnc-nav__control-progress"></span>
+              </button>
+              <button class="fnc-nav__control">
+                New Designs
+                <span class="fnc-nav__control-progress"></span>
+              </button>
+              <button class="fnc-nav__control">
+                Fresh Night Out
+                <span class="fnc-nav__control-progress"></span>
+              </button>
+              <button class="fnc-nav__control">
+                Not only Adault
+                <span class="fnc-nav__control-progress"></span>
+              </button>
+            </div>
+          </nav>
         </div>
+      </div>
+    </div>
+
+    <!-- home words -->
+    <div class="homewords" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
+      <h3 class="homehead">Clothing & Shoes</h3>
+      <p class="homep">As a creator, you look for ways to excel and express yourself when and where you
+        can, from
+        reaching for that last rep to evolving your streetwear style. Log miles or tear down the
+        baseline in
+        shoes with responsive cushioning. Rep an athletic style off the field in lifestyle apparel born
+        of sport
+        heritage. From athletes to streetwear enthusiasts, zapp clothing and shoes exist to let you go
+        harder,
+        dig deeper, and get the most out of yourself, from the pitch to the street to the road less
+        traveled.
+      </p>
+    </div>
+    <!-- Home slider -->
+    <div class=" hmslider1">
+      <div class="card hmcard2" style="width: 30vw;" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="700">
+        <img src="Page Photos/blackjackedsitting.jpg" class="card-img-top" alt="...">
+        <div class="card-body hmslide1body">
+          <a href="#" class="btn btn-primary hmslidebt" id="hmbtn1">Shop Now</a>
+        </div>
+      </div>
+      <div class="homeslider1_text" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
+        <p>What you wear is how you present yourself to the world, especially today, when human contacts
+          are so quick. Fashion is instant language.</p>
+        <p class="quotewr1">—Miuccia Prada</p>
+      </div>
+    </div>
+
+    <div class=" hmslider2">
+      <div class="homeslider2_text" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
+        <p>Whoever said that money can't buy happiness, simply didn't know where to go shopping.</p>
+        <p class="quotewr2">—Bo Derek</p>
+      </div>
+      <div class="card hmcard2" style="width: 30vw;" data-aos="fade-left" data-aos-easing="linear" data-aos-duration="700">
+        <img src="Page Photos/homeslide2.jpg" class="card-img-top hmcard2" alt="...">
+        <div class="card-body hmslide2body">
+          <a href="#" class="btn btn-primary hmslidebt" id="hmbtn2">Shop Now</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="aboutuswords" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000" id="aboutuswords">
+      <h3 class="homehead">About Us</h3>
+      <p class="homep">
+        Welcome to <b>ZAPP</b>, your number one source for all Shirts, Pants & Shoes.
+        We're dedicated to giving you the very best of products, with a focus on three characteristics,
+        dependability, customer service and uniqueness.
+        Founded in [2021] by Zar,Zay,Phuu & Zaw. <b>ZAPP</b> has come a long way from its beginnings in a
+        Yanong home office. When we first started out,
+        we passion for providing the
+        best trending equipment for all customers. We now
+        serve customers all over the Myanmar area, and are thrilled to be a part
+        of the eco-friendly wing of the fashion industry.
+      </p>
+      <p class="homep">
+        We hope you enjoy our products as much as we enjoy offering them to you. If you have any questions
+        or
+        comments, please don't hesitate to contact us.
+      </p>
+    </div>
+  </div>
   <!--Home End -->
   <div class="Men">
     <div class="feature">
@@ -314,36 +308,36 @@
         <h2 class="mb-3 fs-2 fw-bold fst-italic">Trending</h2>
       </div>
       <div class="slider">
-      <div class="container">
-        <!--Expanding Card start-->
-        <div class="panel active" style="
-              background-image: url('Page Photos/men slider 5.jpg');
+        <div class="container">
+          <!--Expanding Card start-->
+          <div class="panel TrendMen active" style="
+              
             ">
-          <h3></h3>
-        </div>
-        <div class="panel" style="
-              background-image: url('Page Photos/men slider 4.jpg');
+
+          </div>
+          <div class="panel TrendMen" style="
+              
             ">
-          <h3></h3>
-        </div>
-        <div class="panel" style="
-              background-image: url('Page Photos/men slider 3.jpg');
+
+          </div>
+          <div class="panel TrendMen" style="
+              
             ">
-          <h3></h3>
-        </div>
-        <div class="panel" style="
-              background-image: url('Page Photos/men slider1.jpg');
+
+          </div>
+          <div class="panel TrendMen" style="
+              
             ">
-          <h3></h3>
-        </div>
-        <div class="panel" style="
-              background-image: url('Page Photos/men slider 2.jpg');
+
+          </div>
+          <div class="panel TrendMen" style="
+            
             ">
-          <h3>Care</h3>
+
+          </div>
         </div>
+        <!--Expanding Card End-->
       </div>
-      <!--Expanding Card End-->
-    </div>
     </div>
     <!-- Card End-->
     <!-- Nslidercard 1 start-->
@@ -369,7 +363,7 @@
             <div class="col-12">
               <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner" id="MenShirt">
-            
+
                 </div>
               </div>
             </div>
@@ -452,36 +446,36 @@
         <h2 class="fs-2 fw-bold fst-italic">Trending</h2>
       </div>
       <div class="slider">
-      <div class="container">
-        <!--Expanding Card start-->
-        <div class="panel active" style="
-              background-image: url('Page Photos/burgess-milner-OYYE4g-I5ZQ-unsplash.jpg');
+        <div class="container">
+          <!--Expanding Card start-->
+          <div class="panel TrendWomen active" style="
+              
             ">
-          <h3></h3>
-        </div>
-        <div class="panel" style="
-              background-image: url('Page Photos/women slider 1.jpg');
+            <h3></h3>
+          </div>
+          <div class="panel TrendWomen " style="
+              
             ">
-          <h3></h3>
-        </div>
-        <div class="panel" style="
-              background-image: url('Page Photos/women slider 2.jpg');
+            <h3></h3>
+          </div>
+          <div class="panel TrendWomen" style="
+              
             ">
-          <h3></h3>
-        </div>
-        <div class="panel" style="
-              background-image: url('Page Photos/women slider 3.jpg');
+            <h3></h3>
+          </div>
+          <div class="panel TrendWomen" style="
+              
             ">
-          <h3></h3>
-        </div>
-        <div class="panel" style="
-              background-image: url('Page Photos/women slider 4.jpg');
+            <h3></h3>
+          </div>
+          <div class="panel TrendWomen" style="
+              
             ">
-          <h3></h3>
+            <h3></h3>
+          </div>
         </div>
+        <!--Expanding Card End-->
       </div>
-      <!--Expanding Card End-->
-    </div>
     </div>
     <!-- Card End-->
     <!-- Wshirt Card start-->
@@ -589,36 +583,36 @@
         <h2 class="fs-2 fw-bold fst-italic">Trending</h2>
       </div>
       <div class="slider">
-      <div class="container">
-        <!--Expanding Card start-->
-        <div class="panel active" style="
-              background-image: url('Page Photos/kid slider 6.jpg');
+        <div class="container">
+          <!--Expanding Card start-->
+          <div class="panel TrendKid active" style="
+              
             ">
-          <h3></h3>
-        </div>
-        <div class="panel" style="
-              background-image: url('Page Photos/Kid slider 2.jpg');
+            <h3></h3>
+          </div>
+          <div class="panel TrendKid" style="
+              
             ">
-          <h3></h3>
-        </div>
-        <div class="panel" style="
-              background-image: url('Page Photos/Kid slider 3.jpg');
+            <h3></h3>
+          </div>
+          <div class="panel TrendKid" style="
+              
             ">
-          <h3></h3>
-        </div>
-        <div class="panel" style="
-              background-image: url('Page Photos/kid slider 4.jpg');
+            <h3></h3>
+          </div>
+          <div class="panel TrendKid" style="
+              
             ">
-          <h3></h3>
-        </div>
-        <div class="panel" style="
-              background-image: url('Page Photos/kid slider 5.jpg');
+            <h3></h3>
+          </div>
+          <div class="panel TrendKid" style="
+              
             ">
-          <h3>Care</h3>
+            <h3>Care</h3>
+          </div>
         </div>
+        <!--Expanding Card End-->
       </div>
-      <!--Expanding Card End-->
-    </div>
     </div>
     <!-- Card End-->
     <!-- Parallx Card start-->
@@ -653,7 +647,7 @@
     </div>
     <!-- Parallx Card End-->
     <!-- Parallx Card 2 Start -->
-    <div class="nslidecard kpant" >
+    <div class="nslidecard kpant">
       <section class="pt-5 pb-5">
         <div class="container">
           <div class="row">
@@ -724,47 +718,59 @@
       </marquee>
     </div>
     <div class="bigroom">
-    <div class="room">
-    <h3 class="footerheadtext">Developed By</h3>
-      <div class="pic1">
-        <span class="admin1"><a href="https://www.facebook.com/zawphyo.jt" target="blank"><img src="Page Photos/zaw.png" alt="" class="admin"></a></span><span class="admin1"><a href="https://www.facebook.com/minthant.thantk" target="blank"><img src="Page Photos/Zayr Htet PP.jpg" alt="" class="admin3"></a></span>
+      <div class="room">
+        <h3 class="footerheadtext">Developed By</h3>
+        <div class="pic1">
+          <span class="admin1"><a href="https://www.facebook.com/zawphyo.jt" target="blank"><img src="Page Photos/zaw.png" alt="" class="admin"></a></span><span class="admin1"><a href="https://www.facebook.com/minthant.thantk" target="blank"><img src="Page Photos/Zayr Htet PP.jpg" alt="" class="admin3"></a></span>
+        </div>
+        <div class="adminname1">
+          <span class="zaw"><a href="https://www.facebook.com/zawphyo.jt" target="blank" class="namess">Justro</span></a><span class="zay"><a href="https://www.facebook.com/minthant.thantk" class="namess"> WenD'go</a></span>
+        </div>
+        <div class="pic2">
+          <span class="admin1"><a href="https://www.facebook.com/phupwint.aung.98" target="blank"><img src="Page Photos/Phoopp.jpg" alt="" class="admin"></a></span><span class="admin1"><a href="https://www.facebook.com/Ichigoxclipse1" target="blank"><img src="Page Photos/Zarni.jpg" alt="" class="admin"></a></span>
+        </div>
+        <div class="adminname1">
+          <span class="phu"><a href="https://www.facebook.com/phupwint.aung.98" target="blank" class="namess">プープイン</a> </span><span class="zar"><a href="https://www.facebook.com/Ichigoxclipse1" target="blank" class="namess">イチゴ</a> </span>
+        </div>
       </div>
-      <div class="adminname1">
-        <span class="zaw"><a href="https://www.facebook.com/zawphyo.jt" target="blank" class="namess">Justro</span></a><span class="zay"><a href="https://www.facebook.com/minthant.thantk" class="namess"> WenD'go</a></span>
+      <div class="room">
+        <h3 class="footerheadtext">Contact Us</h3>
+        <p class="footerinnertext">FAQ</p>
+        <p class="footerinnertext">TERMS & CONDITIONS</p>
+        <p class="footerinnertext">PRIVACY POLICY</p>
+        <p class="footerinnertext">SHOP LOCATIONS</p>
       </div>
-      <div class="pic2">
-      <span class="admin1"><a href="https://www.facebook.com/phupwint.aung.98" target="blank" ><img src="Page Photos/Phoopp.jpg" alt="" class="admin"></a></span><span class="admin1"><a href="https://www.facebook.com/Ichigoxclipse1" target="blank"><img src="Page Photos/Zarni.jpg" alt="" class="admin"></a></span>
+      <div class="room2">
+        <h3 class="footerheadtext">Connect With Us</h3>
+        <div class="iconrow">
+          <span class="icons">
+            <ion-icon name="logo-facebook" class="socialicon"></ion-icon>
+          </span>
+          <span class="icons">
+            <ion-icon name="logo-instagram" class="socialicon"> </ion-icon>
+          </span>
+          <span class="icons">
+            <ion-icon name="logo-twitter" class="socialicon"></ion-icon>
+          </span>
+          <span class="icons">
+            <ion-icon name="logo-google" class="socialicon"></ion-icon>
+          </span>
+        </div>
+        <div class="mail">
+          <ion-icon name="mail-outline" class="picon"></ion-icon><span class="footerinnertext1"><a href="mailto: ZAPP-Fashion@example.com" class="gmail">ZAPP-Fashion@gmail.com</a> </span>
+        </div>
+        <div class="phone">
+          <ion-icon name="call-outline" class="picon"></ion-icon><span class="footerinnertext1">+9545623423</span>
+        </div>
       </div>
-      <div class="adminname1">
-        <span class="phu"><a href="https://www.facebook.com/phupwint.aung.98" target="blank" class="namess">プープイン</a> </span><span class="zar"><a href="https://www.facebook.com/Ichigoxclipse1" target="blank" class="namess">イチゴ</a> </span>
-      </div>
-    </div>
-    <div class="room">
-    <h3 class="footerheadtext">Contact Us</h3>
-      <p class="footerinnertext">FAQ</p>
-      <p class="footerinnertext">TERMS & CONDITIONS</p>
-      <p class="footerinnertext">PRIVACY POLICY</p>
-      <p class="footerinnertext">SHOP LOCATIONS</p>
-    </div>
-    <div class="room2">
-    <h3 class="footerheadtext">Connect With Us</h3>
-    <div class="iconrow">
-      <span class="icons"><ion-icon name="logo-facebook" class="socialicon"></ion-icon></span>
-      <span class="icons"><ion-icon name="logo-instagram" class="socialicon"> </ion-icon></span>
-      <span class="icons"><ion-icon name="logo-twitter" class="socialicon"></ion-icon></span>
-      <span class="icons"><ion-icon name="logo-google" class="socialicon"></ion-icon></span>
-      </div>
-      <div class="mail"><ion-icon name="mail-outline" class="picon"></ion-icon><span class="footerinnertext1"><a href="mailto: ZAPP-Fashion@example.com" class="gmail">ZAPP-Fashion@gmail.com</a> </span></div>
-      <div class="phone"><ion-icon name="call-outline" class="picon"></ion-icon><span class="footerinnertext1">+9545623423</span></div>
-    </div>
     </div>
     <hr class="underline">
     <p class="copyright">
-    Copyright © 2021 ZAPP-Fashion
+      Copyright © 2021 ZAPP-Fashion
     </p>
   </div>
   <!-- start of cart -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg modal-dialog-scrollable" role="document">
       <div class="modal-content">
         <div class="modal-header">
@@ -789,7 +795,7 @@
               X
             </a>
           </div> -->
-           <!--end of  cart item -->
+          <!--end of  cart item -->
         </div>
         <!-- cart total -->
         <div class="
@@ -817,7 +823,7 @@
             <button type="button" id="btnContinue" class="btn btn-outline-secondary">CONTINUE
               SHOPPING</button>
           </div>
-          
+
           <div class="d-flex align-items-end flex-column">
             <a href="#checkout"><button type="button" id="btnCheckout" class="btn btn-dark" disabled>Your Cart Is Empty</button></a>
           </div>

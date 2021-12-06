@@ -28,7 +28,11 @@ if (
     echo "<body><script>Swal.fire({
         icon: 'error',
         title: 'Username and Password are not match'
-    })</script></body>";
-    require "FindPassword.php";
+    })
+    setTimeout(() => {
+        window.location='../LoginForm/FindPassword.php?name=$username';
+        }, 1500);
+    </script></body>";
+    
 }
 $name = $_GET['name'];

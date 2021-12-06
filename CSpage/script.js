@@ -15,6 +15,57 @@ $(document).ready(function () {
       
     }
   })*/
+  $.ajax({
+    type: "get",
+    url: "../Controllers/MenTrending.php",
+    success: function (data) {
+      let json = JSON.parse(data);
+      console.log(json);
+      $(".TrendMen").each(function (index) {
+        $(this).attr(
+          "style",
+          `background-image: url('../Admin/Stockmanagement/pdphotos/${json[index]["photoname"]}');`
+        );
+        $(this).append(`
+        <a href="#${json[index]["photoname"]}"><h3 align="center" style="text-shadow:2px 2px 2px black; color:white;">${json[index]["name"]}</h3></a>
+        `);
+      });
+    },
+  });
+  $.ajax({
+    type: "get",
+    url: "../Controllers/WomenTrending.php",
+    success: function (data) {
+      let json = JSON.parse(data);
+      console.log(json);
+      $(".TrendWomen").each(function (index) {
+        $(this).attr(
+          "style",
+          `background-image: url('../Admin/Stockmanagement/pdphotos/${json[index]["photoname"]}');`
+        );
+        $(this).append(`
+        <a href="#${json[index]["photoname"]}"><h3 align="center" style="text-shadow:2px 2px 2px black; color:white;">${json[index]["name"]}</h3></a>
+        `);
+      });
+    },
+  });
+  $.ajax({
+    type: "get",
+    url: "../Controllers/KidTrending.php",
+    success: function (data) {
+      let json = JSON.parse(data);
+      console.log(json);
+      $(".TrendKid").each(function (index) {
+        $(this).attr(
+          "style",
+          `background-image: url('../Admin/Stockmanagement/pdphotos/${json[index]["photoname"]}');`
+        );
+        $(this).append(`
+        <a href="#${json[index]["photoname"]}"><h3 align="center" style="text-shadow:2px 2px 2px black; color:white;">${json[index]["name"]}</h3></a>
+        `);
+      });
+    },
+  });
   document.getElementById("btnCheckout").addEventListener("click", function () {
     let senddata = [];
     let cartid = document.getElementsByClassName("cartid");
@@ -137,7 +188,7 @@ $(document).ready(function () {
             }
             $(`${inner}`).append(
               `${start}
-            <div class="col-md-4 mb-3">
+            <div class="col-md-4 mb-3" id="${iterator.photoname}">
               <div class="card slcard MSlength">
                 <img class="img-fluid" src="../Admin/Stockmanagement/pdphotos/${iterator.photoname}" />
                 <div class="card-body justify-content-center
@@ -175,7 +226,7 @@ $(document).ready(function () {
             }
             $(`${inner}`).append(
               `${start}
-            <div class="col-md-4 mb-3">
+            <div class="col-md-4 mb-3"  id="${iterator.photoname}">
               <div class="card slcard MPlength">
                 <img class="img-fluid" src="../Admin/Stockmanagement/pdphotos/${iterator.photoname}" />
                 <div class="card-body justify-content-center
@@ -213,7 +264,7 @@ $(document).ready(function () {
             }
             $(`${inner}`).append(
               `${start}
-            <div class="col-md-4 mb-3">
+            <div class="col-md-4 mb-3"  id="${iterator.photoname}">
               <div class="card slcard MSHlength">
                 <img class="img-fluid" src="../Admin/Stockmanagement/pdphotos/${iterator.photoname}" />
                 <div class="card-body justify-content-center
@@ -255,7 +306,7 @@ $(document).ready(function () {
             }
             $(`${inner}`).append(
               `${start}
-            <div class="col-md-4 mb-3">
+            <div class="col-md-4 mb-3"  id="${iterator.photoname}">
               <div class="card slcard WSlength">
                 <img class="img-fluid" src="../Admin/Stockmanagement/pdphotos/${iterator.photoname}" />
                 <div class="card-body justify-content-center
@@ -293,7 +344,7 @@ $(document).ready(function () {
             }
             $(`${inner}`).append(
               `${start}
-            <div class="col-md-4 mb-3">
+            <div class="col-md-4 mb-3"  id="${iterator.photoname}">
               <div class="card slcard WPlength">
                 <img class="img-fluid" src="../Admin/Stockmanagement/pdphotos/${iterator.photoname}" />
                 <div class="card-body justify-content-center
@@ -331,7 +382,7 @@ $(document).ready(function () {
             }
             $(`${inner}`).append(
               `${start}
-            <div class="col-md-4 mb-3">
+            <div class="col-md-4 mb-3"  id="${iterator.photoname}">
               <div class="card slcard WSHlength">
                 <img class="img-fluid" src="../Admin/Stockmanagement/pdphotos/${iterator.photoname}" />
                 <div class="card-body justify-content-center
@@ -372,7 +423,7 @@ $(document).ready(function () {
             }
             $(`${inner}`).append(
               `${start}
-            <div class="col-md-4 mb-3">
+            <div class="col-md-4 mb-3"  id="${iterator.photoname}">
               <div class="card slcard KSlength">
                 <img class="img-fluid" src="../Admin/Stockmanagement/pdphotos/${iterator.photoname}" />
                 <div class="card-body justify-content-center
@@ -410,7 +461,7 @@ $(document).ready(function () {
             }
             $(`${inner}`).append(
               `${start}
-            <div class="col-md-4 mb-3">
+            <div class="col-md-4 mb-3"  id="${iterator.photoname}">
               <div class="card slcard KPlength">
                 <img class="img-fluid" src="../Admin/Stockmanagement/pdphotos/${iterator.photoname}" />
                 <div class="card-body justify-content-center
@@ -448,7 +499,7 @@ $(document).ready(function () {
             }
             $(`${inner}`).append(
               `${start}
-            <div class="col-md-4 mb-3">
+            <div class="col-md-4 mb-3"  id="${iterator.photoname}">
               <div class="card slcard KSHlength">
                 <img class="img-fluid" src="../Admin/Stockmanagement/pdphotos/${iterator.photoname}" />
                 <div class="card-body justify-content-center
