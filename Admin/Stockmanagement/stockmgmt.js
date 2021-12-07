@@ -294,7 +294,7 @@ $(document).ready(function () {
       .getElementById("href5")
       .setAttribute(
         "href",
-        "../FeedBack/feedback.php?name=" + sessionStorage.getItem("AdminName")
+        "../FeedBack/Feedback.php?name=" + sessionStorage.getItem("AdminName")
       );
     const d = new Date();
     let date = d.getDate();

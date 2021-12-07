@@ -16,7 +16,11 @@ $(document).ready(function () {
   }
   $.ajax({
     type: "get",
+<<<<<<< HEAD
     url: "getfeedback.php",
+=======
+    url: "../../Controllers/FeedbackDatas.php",
+>>>>>>> f08e51594c44098f784fc2de663b2830c79d0111
     success: function (data) {
       let json = JSON.parse(data);
       console.log(json);
@@ -63,14 +67,22 @@ $.get("../../deflink.html", function (data) {
     .getElementById("href2")
     .setAttribute(
       "href",
+<<<<<<< HEAD
       "../Stockmanagement/stockmanagement.php?name=" +
+=======
+      "../StockManagement/StockManagement.php?name=" +
+>>>>>>> f08e51594c44098f784fc2de663b2830c79d0111
         sessionStorage.getItem("AdminName")
     );
   document
     .getElementById("href3")
     .setAttribute(
       "href",
+<<<<<<< HEAD
       "../CustomerInfo/Customerinfo.php?name=" +
+=======
+      "../CustomerInfo/CustomerInfo.php?name=" +
+>>>>>>> f08e51594c44098f784fc2de663b2830c79d0111
         sessionStorage.getItem("AdminName")
     );
   document
@@ -84,7 +96,11 @@ $.get("../../deflink.html", function (data) {
     .getElementById("href5")
     .setAttribute(
       "href",
+<<<<<<< HEAD
       "../FeedBack/feedback.php?name=" + sessionStorage.getItem("AdminName")
+=======
+      "../FeedBack/Feedback.php?name=" + sessionStorage.getItem("AdminName")
+>>>>>>> f08e51594c44098f784fc2de663b2830c79d0111
     );
   const d = new Date();
   let date = d.getDate();
